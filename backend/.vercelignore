@@ -1,5 +1,5 @@
-# Deployed: api/, app/, collector/, analysis/, core/, db/ and requirements.txt.
-# Production reads Postgres (Neon), so no local database files are bundled.
+# Deployed: api/, app/, collector/, analysis/, core/, db/ + pyproject.toml (dependency source).
+# Production reads MongoDB Atlas, so no local database files are bundled.
 tests/
 scripts/
 docs/

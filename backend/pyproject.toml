@@ -4,6 +4,23 @@ version = "0.1.0"
 description = "Booking.com review collector, analysis and read-only insights API for Azzurro Hotels"
 requires-python = ">=3.10"
 
+# Runtime dependencies. Vercel's Python builder installs from this list, so it must stay
+# in step with requirements.txt (same pins; that file is the one used for local installs).
+dependencies = [
+    "fastapi==0.141.1",
+    "starlette==1.7.0",
+    "pydantic==2.13.5",
+    "tzdata==2026.4",
+    "pymongo[srv]==4.10.1",
+    "dnspython==2.7.0",
+    "httpx==0.28.1",
+    "PyYAML==6.0.3",
+]
+
+# The backend is an application, not an installable package: uv must not try to build it.
+[tool.uv]
+package = false
+
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 pythonpath = ["."]
