@@ -1,0 +1,29 @@
+[project]
+name = "azzurro-review-insights-backend"
+version = "0.1.0"
+description = "Booking.com review collector, analysis and read-only insights API for Azzurro Hotels"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-ra"
+filterwarnings = ["ignore::DeprecationWarning:httpx.*"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+extend-exclude = [".venv", "data"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "S", "SIM"]
+ignore = [
+    "S101",  # assert is fine in tests
+    "S608",  # SQL built only from fixed fragments + '?' placeholders
+    "B008",  # FastAPI Depends/Query defaults
+    "E501",  # long SQL string literals; `ruff format` enforces code line length
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["S", "E501"]
+"scripts/**" = ["S311", "S324", "B905"]  # synthetic dev data only

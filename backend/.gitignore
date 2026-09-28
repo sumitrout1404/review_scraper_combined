@@ -1,0 +1,28 @@
+# Secrets – never commit
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local databases (data now lives in MongoDB; data/samples/* IS committed as the sample-data deliverable)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+data/.collector.lock
+
+# Collector debug artefacts (raw pages may contain session data)
+.cache/
+raw/
+
+# Vercel
+.vercel

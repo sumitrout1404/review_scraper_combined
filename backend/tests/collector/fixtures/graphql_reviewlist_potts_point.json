@@ -1,0 +1,769 @@
+{
+ "data": {
+  "reviewListFrontend": {
+   "reviewCard": [
+    {
+     "guestDetails": {
+      "countryName": "Australia",
+      "countryCode": "au",
+      "guestTypeTranslation": "Couple"
+     },
+     "bookingDetails": {
+      "customerType": "COUPLES",
+      "stayStatus": "stayed",
+      "checkoutDate": "2026-09-23",
+      "numNights": 5,
+      "checkinDate": "2026-09-18",
+      "roomType": {
+       "name": "MIXED POD ROOM - 6 people bedroom",
+       "id": "949141204"
+      }
+     },
+     "textDetails": {
+      "lang": "en",
+      "positiveText": "Location",
+      "title": "Made me wanna leave Sydney.",
+      "textTrivialFlag": 0,
+      "negativeText": "Dirty, badly maintained, fake photos from website, no real light"
+     },
+     "partnerReply": null,
+     "reviewedDate": 1790546760,
+     "helpfulVotesCount": 0,
+     "reviewUrl": "15f1092b450666b3",
+     "reviewScore": 1.0
+    },
+    {
+     "reviewUrl": "aedbfc214a95f2f0",
+     "reviewScore": 9.0,
+     "helpfulVotesCount": null,
+     "textDetails": {
+      "negativeText": null,
+      "textTrivialFlag": 0,
+      "title": null,
+      "lang": "en",
+      "positiveText": null
+     },
+     "bookingDetails": {
+      "checkinDate": "2026-09-14",
+      "roomType": {
+       "id": "949141222",
+       "name": "Mixed Pod Room 8 people bedroom"
+      },
+      "numNights": 7,
+      "customerType": "COUPLES",
+      "stayStatus": "stayed",
+      "checkoutDate": "2026-09-21"
+     },
+     "partnerReply": null,
+     "reviewedDate": 1790028705,
+     "guestDetails": {
+      "guestTypeTranslation": "Couple",
+      "countryName": "Argentina",
+      "countryCode": "ar"
+     }
+    },
+    {
+     "helpfulVotesCount": 0,
+     "reviewUrl": "2d41bc0910cc7c96",
+     "reviewScore": 3.0,
+     "guestDetails": {
+      "guestTypeTranslation": "Couple",
+      "countryName": "Australia",
+      "countryCode": "au"
+     },
+     "bookingDetails": {
+      "checkoutDate": "2026-09-15",
+      "stayStatus": "stayed",
+      "customerType": "COUPLES",
+      "numNights": 4,
+      "roomType": {
+       "id": "949141224",
+       "name": "Private Room for 2 People (Shared Bathroom)"
+      },
+      "checkinDate": "2026-09-11"
+     },
+     "textDetails": {
+      "textTrivialFlag": 0,
+      "lang": "en",
+      "title": "Good location, bad rooms",
+      "positiveText": "Good location, reception staff were lovely",
+      "negativeText": "Room was not clean when we arrived (not vacuumed and bin was not even emptied from previous guest) rest of property seemed very rundown/unkempt"
+     },
+     "reviewedDate": 1789593071,
+     "partnerReply": null
+    },
+    {
+     "textDetails": {
+      "positiveText": null,
+      "lang": "en",
+      "title": null,
+      "textTrivialFlag": 0,
+      "negativeText": null
+     },
+     "bookingDetails": {
+      "roomType": {
+       "id": "949141204",
+       "name": "MIXED POD ROOM - 6 people bedroom"
+      },
+      "checkinDate": "2026-08-30",
+      "numNights": 7,
+      "customerType": "SOLO_TRAVELLERS",
+      "stayStatus": "stayed",
+      "checkoutDate": "2026-09-06"
+     },
+     "reviewedDate": 1789370562,
+     "partnerReply": null,
+     "guestDetails": {
+      "guestTypeTranslation": "Solo traveller",
+      "countryName": "Australia",
+      "countryCode": "au"
+     },
+     "reviewUrl": "78c757a72f82078e",
+     "reviewScore": 4.0,
+     "helpfulVotesCount": null
+    },
+    {
+     "reviewScore": 5.0,
+     "reviewUrl": "a0253c2f5f80a35b",
+     "helpfulVotesCount": null,
+     "partnerReply": null,
+     "reviewedDate": 1789344162,
+     "textDetails": {
+      "negativeText": null,
+      "lang": "en",
+      "title": null,
+      "positiveText": null,
+      "textTrivialFlag": 0
+     },
+     "bookingDetails": {
+      "roomType": {
+       "name": "Mixed Pod 4 Beds Room with Sydney Harbour Bridge View",
+       "id": "949141210"
+      },
+      "checkinDate": "2026-09-09",
+      "checkoutDate": "2026-09-10",
+      "stayStatus": "stayed",
+      "customerType": "SOLO_TRAVELLERS",
+      "numNights": 1
+     },
+     "guestDetails": {
+      "countryCode": "br",
+      "countryName": "Brazil",
+      "guestTypeTranslation": "Solo traveller"
+     }
+    },
+    {
+     "guestDetails": {
+      "countryName": "Australia",
+      "countryCode": "au",
+      "guestTypeTranslation": "Couple"
+     },
+     "textDetails": {
+      "negativeText": null,
+      "positiveText": "Good place",
+      "lang": "fr",
+      "title": null,
+      "textTrivialFlag": 0
+     },
+     "bookingDetails": {
+      "checkoutDate": "2026-09-11",
+      "stayStatus": "stayed",
+      "customerType": "COUPLES",
+      "numNights": 1,
+      "roomType": {
+       "id": "949141224",
+       "name": "Private Room for 2 People (Shared Bathroom)"
+      },
+      "checkinDate": "2026-09-10"
+     },
+     "partnerReply": null,
+     "reviewedDate": 1789255249,
+     "helpfulVotesCount": 0,
+     "reviewUrl": "1151b22ff9885b92",
+     "reviewScore": 10.0
+    },
+    {
+     "helpfulVotesCount": 0,
+     "reviewUrl": "8ab371a37f4fa1c3",
+     "reviewScore": 1.0,
+     "guestDetails": {
+      "guestTypeTranslation": "Solo traveller",
+      "countryCode": "au",
+      "countryName": "Australia"
+     },
+     "bookingDetails": {
+      "roomType": {
+       "name": "MIXED POD ROOM - 6 people bedroom",
+       "id": "949141204"
+      },
+      "checkinDate": "2026-09-01",
+      "numNights": 3,
+      "checkoutDate": "2026-09-04",
+      "stayStatus": "stayed",
+      "customerType": "SOLO_TRAVELLERS"
+     },
+     "textDetails": {
+      "negativeText": "Lots of scary, dangerous and abusive other guests. Terrifying neighbourhood after dark.",
+      "textTrivialFlag": 0,
+      "lang": "en",
+      "title": "One of the worst hostels I've ever stayed at.",
+      "positiveText": "It was cheap. The free dinner."
+     },
+     "partnerReply": null,
+     "reviewedDate": 1788489489
+    },
+    {
+     "guestDetails": {
+      "guestTypeTranslation": "Solo traveller",
+      "countryName": "United Kingdom",
+      "countryCode": "gb"
+     },
+     "textDetails": {
+      "negativeText": "All of it, truly.",
+      "textTrivialFlag": 0,
+      "positiveText": "Gefting the f. out",
+      "lang": "en",
+      "title": "Honesty"
+     },
+     "bookingDetails": {
+      "checkoutDate": "2026-07-29",
+      "stayStatus": "stayed",
+      "customerType": "SOLO_TRAVELLERS",
+      "numNights": 4,
+      "roomType": {
+       "id": "949141203",
+       "name": "Mixed Pod Twin Room (Shared Bathroom)"
+      },
+      "checkinDate": "2026-07-25"
+     },
+     "reviewedDate": 1787660179,
+     "partnerReply": null,
+     "helpfulVotesCount": 0,
+     "reviewScore": 1.0,
+     "reviewUrl": "1ce9e0c8c5d3c29c"
+    },
+    {
+     "helpfulVotesCount": null,
+     "reviewScore": 9.0,
+     "reviewUrl": "dab742ac374a9c3a",
+     "guestDetails": {
+      "countryName": "Australia",
+      "countryCode": "au",
+      "guestTypeTranslation": "Couple"
+     },
+     "partnerReply": null,
+     "reviewedDate": 1787456017,
+     "bookingDetails": {
+      "stayStatus": "stayed",
+      "customerType": "COUPLES",
+      "checkoutDate": "2026-08-23",
+      "numNights": 7,
+      "checkinDate": "2026-08-16",
+      "roomType": {
+       "id": "949141210",
+       "name": "Mixed Pod 4 Beds Room with Sydney Harbour Bridge View"
+      }
+     },
+     "textDetails": {
+      "negativeText": null,
+      "positiveText": null,
+      "lang": "fr",
+      "title": null,
+      "textTrivialFlag": 0
+     }
+    },
+    {
+     "partnerReply": null,
+     "reviewedDate": 1786937774,
+     "textDetails": {
+      "negativeText": null,
+      "positiveText": null,
+      "lang": "en",
+      "title": null,
+      "textTrivialFlag": 0
+     },
+     "bookingDetails": {
+      "checkinDate": "2026-08-14",
+      "roomType": {
+       "name": "Mixed Pod 4 Beds Room with Sydney Harbour Bridge View",
+       "id": "949141210"
+      },
+      "stayStatus": "stayed",
+      "customerType": "SOLO_TRAVELLERS",
+      "checkoutDate": "2026-08-16",
+      "numNights": 2
+     },
+     "guestDetails": {
+      "guestTypeTranslation": "Solo traveller",
+      "countryCode": "it",
+      "countryName": "Italy"
+     },
+     "reviewScore": 6.0,
+     "reviewUrl": "ea2250caf9c50634",
+     "helpfulVotesCount": null
+    },
+    {
+     "reviewedDate": 1786589583,
+     "partnerReply": null,
+     "bookingDetails": {
+      "numNights": 7,
+      "stayStatus": "stayed",
+      "customerType": "SOLO_TRAVELLERS",
+      "checkoutDate": "2026-07-17",
+      "checkinDate": "2026-07-10",
+      "roomType": {
+       "id": "949141225",
+       "name": "Private Room for 2 People with Harbour Bridge View"
+      }
+     },
+     "textDetails": {
+      "textTrivialFlag": 0,
+      "title": null,
+      "lang": "en",
+      "positiveText": null,
+      "negativeText": null
+     },
+     "guestDetails": {
+      "guestTypeTranslation": "Solo traveller",
+      "countryName": "Australia",
+      "countryCode": "au"
+     },
+     "reviewScore": 6.0,
+     "reviewUrl": "2a83798902b90009",
+     "helpfulVotesCount": null
+    },
+    {
+     "helpfulVotesCount": null,
+     "reviewScore": 7.0,
+     "reviewUrl": "edce58ff7590ce33",
+     "guestDetails": {
+      "guestTypeTranslation": "Solo traveller",
+      "countryCode": "au",
+      "countryName": "Australia"
+     },
+     "partnerReply": null,
+     "reviewedDate": 1786450467,
+     "bookingDetails": {
+      "numNights": 1,
+      "stayStatus": "stayed",
+      "customerType": "SOLO_TRAVELLERS",
+      "checkoutDate": "2026-06-29",
+      "checkinDate": "2026-06-28",
+      "roomType": {
+       "id": "949141210",
+       "name": "Mixed Pod 4 Beds Room with Sydney Harbour Bridge View"
+      }
+     },
+     "textDetails": {
+      "lang": "en",
+      "title": null,
+      "positiveText": null,
+      "textTrivialFlag": 0,
+      "negativeText": null
+     }
+    },
+    {
+     "reviewScore": 10.0,
+     "reviewUrl": "e594122093e240dd",
+     "helpfulVotesCount": null,
+     "partnerReply": null,
+     "reviewedDate": 1785549836,
+     "textDetails": {
+      "negativeText": null,
+      "title": null,
+      "lang": "es",
+      "positiveText": null,
+      "textTrivialFlag": 0
+     },
+     "bookingDetails": {
+      "checkinDate": "2026-06-01",
+      "roomType": {
+       "id": "949141224",
+       "name": "Private Room for 2 People (Shared Bathroom)"
+      },
+      "checkoutDate": "2026-06-02",
+      "stayStatus": "stayed",
+      "customerType": "COUPLES",
+      "numNights": 1
+     },
+     "guestDetails": {
+      "guestTypeTranslation": "Couple",
+      "countryCode": "es",
+      "countryName": "Spain"
+     }
+    },
+    {
+     "guestDetails": {
+      "countryName": "Australia",
+      "countryCode": "au",
+      "guestTypeTranslation": "Solo traveller"
+     },
+     "partnerReply": null,
+     "reviewedDate": 1785462698,
+     "bookingDetails": {
+      "roomType": {
+       "id": "949141225",
+       "name": "Private Room for 2 People with Harbour Bridge View"
+      },
+      "checkinDate": "2026-07-23",
+      "stayStatus": "stayed",
+      "customerType": "SOLO_TRAVELLERS",
+      "checkoutDate": "2026-07-25",
+      "numNights": 2
+     },
+     "textDetails": {
+      "title": null,
+      "lang": "en",
+      "positiveText": null,
+      "textTrivialFlag": 0,
+      "negativeText": null
+     },
+     "helpfulVotesCount": null,
+     "reviewUrl": "c57c0275118b20c4",
+     "reviewScore": 10.0
+    },
+    {
+     "guestDetails": {
+      "countryCode": "gb",
+      "countryName": "United Kingdom",
+      "guestTypeTranslation": "Couple"
+     },
+     "partnerReply": null,
+     "reviewedDate": 1785232708,
+     "textDetails": {
+      "lang": "en",
+      "title": null,
+      "positiveText": null,
+      "textTrivialFlag": 0,
+      "negativeText": null
+     },
+     "bookingDetails": {
+      "checkinDate": "2026-06-25",
+      "roomType": {
+       "id": "949141224",
+       "name": "Private Room for 2 People (Shared Bathroom)"
+      },
+      "numNights": 6,
+      "stayStatus": "stayed",
+      "checkoutDate": "2026-07-01",
+      "customerType": "COUPLES"
+     },
+     "helpfulVotesCount": null,
+     "reviewUrl": "4c9e3bf5915bc458",
+     "reviewScore": 1.0
+    },
+    {
+     "reviewUrl": "a7368aad1c70d1c1",
+     "reviewScore": 2.0,
+     "helpfulVotesCount": 0,
+     "textDetails": {
+      "textTrivialFlag": 0,
+      "positiveText": "L emplacement etc étaient ok",
+      "lang": "fr",
+      "title": "Ok du moment qu on ne considérer pas la propreté :)",
+      "negativeText": "La propreté est carrément à revoir, j ai du revisser la poignée de porte de la salle de bain. Nous avons dû la nettoyer et d autre part la propreté/état des chambres ne correspond aucunement aux photos sur Google : bien plus délabrés"
+     },
+     "bookingDetails": {
+      "checkoutDate": "2026-07-26",
+      "stayStatus": "stayed",
+      "customerType": "FAMILIES",
+      "numNights": 5,
+      "roomType": {
+       "id": "949141224",
+       "name": "Private Room for 2 People (Shared Bathroom)"
+      },
+      "checkinDate": "2026-07-21"
+     },
+     "partnerReply": {
+      "reply": "Thank you for your honest feedback.\n\nWe’re glad you found the location convenient, but we’re very sorry that the cleanliness and condition of the property did not meet your expectations. Having to clean the room yourself or fix a bathroom door handle is certainly not the experience we want for our guests.\n\nWe also appreciate your comments regarding the difference between the property condition and the photos online. We’ll review this with our operations and housekeeping teams and look into the condition of the facilities and the accuracy of our current photos.\n\nThank you for bringing these issues to our attention. We’re sorry we fell short during your stay and appreciate your feedback as it helps us identify areas that need improvement."
+     },
+     "reviewedDate": 1785113152,
+     "guestDetails": {
+      "guestTypeTranslation": "Family",
+      "countryCode": "fr",
+      "countryName": "France"
+     }
+    },
+    {
+     "helpfulVotesCount": 0,
+     "reviewScore": 7.0,
+     "reviewUrl": "2c64699f89b893ba",
+     "guestDetails": {
+      "countryName": "Australia",
+      "countryCode": "au",
+      "guestTypeTranslation": "Solo traveller"
+     },
+     "bookingDetails": {
+      "roomType": {
+       "name": "MIXED POD ROOM - 6 people bedroom",
+       "id": "949141204"
+      },
+      "checkinDate": "2026-06-26",
+      "numNights": 3,
+      "stayStatus": "stayed",
+      "customerType": "SOLO_TRAVELLERS",
+      "checkoutDate": "2026-06-29"
+     },
+     "textDetails": {
+      "negativeText": "food got thron out unexpectedly",
+      "textTrivialFlag": 0,
+      "title": "good, but lost key foods",
+      "lang": "en",
+      "positiveText": "location was great"
+     },
+     "partnerReply": {
+      "reply": "Thank you for your feedback!\n\nWe’re glad you enjoyed our great location. 😊 We’re sorry to hear about the issue with your food being thrown out unexpectedly. We understand how frustrating that can be, especially when you were not expecting it.\n\nWe’ll review how food storage and disposal guidelines are communicated to guests to help avoid misunderstandings in the future.\n\nThank you for staying with us and for bringing this to our attention. We hope to welcome you back again! 💙"
+     },
+     "reviewedDate": 1785026748
+    },
+    {
+     "reviewScore": 2.0,
+     "reviewUrl": "0d1cd76d18f40ae1",
+     "helpfulVotesCount": 0,
+     "partnerReply": {
+      "reply": "Thank you for your honest feedback.\n\nWe’re glad to hear that you found our pricing reasonable and that our receptionist was helpful and friendly. 😊\n\nHowever, we sincerely apologise that the cleanliness and room temperature did not meet your expectations, especially during your two-week stay. We’re also sorry to hear about the issues with the hot water and the condition of the shared toilets and facilities.\n\nWe take these concerns seriously, particularly regarding cleaning frequency during longer stays. Your feedback will be shared with our housekeeping and maintenance teams so these areas can be reviewed and addressed.\n\nThank you again for bringing these issues to our attention. We’re sorry that your overall experience did not meet the standard we aim to provide."
+     },
+     "reviewedDate": 1784874581,
+     "bookingDetails": {
+      "checkinDate": "2026-07-08",
+      "roomType": {
+       "name": "Private Room for 2 People (Shared Bathroom)",
+       "id": "949141224"
+      },
+      "numNights": 16,
+      "checkoutDate": "2026-07-24",
+      "stayStatus": "stayed",
+      "customerType": "SOLO_TRAVELLERS"
+     },
+     "textDetails": {
+      "negativeText": "Dirty, very dirty, cold room, no hot water in some taps, place and toilets are dirty and not cleaned frequently in the 2 weeks I spent here",
+      "lang": "it",
+      "positiveText": "Price and receptionist were nice",
+      "title": null,
+      "textTrivialFlag": 0
+     },
+     "guestDetails": {
+      "guestTypeTranslation": "Solo traveller",
+      "countryName": "Italy",
+      "countryCode": "it"
+     }
+    },
+    {
+     "partnerReply": null,
+     "reviewedDate": 1784460290,
+     "textDetails": {
+      "negativeText": null,
+      "textTrivialFlag": 0,
+      "lang": "en",
+      "title": null,
+      "positiveText": null
+     },
+     "bookingDetails": {
+      "roomType": {
+       "id": "949141204",
+       "name": "MIXED POD ROOM - 6 people bedroom"
+      },
+      "checkinDate": "2026-07-15",
+      "stayStatus": "stayed",
+      "customerType": "SOLO_TRAVELLERS",
+      "checkoutDate": "2026-07-16",
+      "numNights": 1
+     },
+     "guestDetails": {
+      "guestTypeTranslation": "Solo traveller",
+      "countryCode": "au",
+      "countryName": "Australia"
+     },
+     "reviewScore": 9.0,
+     "reviewUrl": "810639fefd027258",
+     "helpfulVotesCount": null
+    },
+    {
+     "guestDetails": {
+      "guestTypeTranslation": "Couple",
+      "countryCode": "au",
+      "countryName": "Australia"
+     },
+     "partnerReply": null,
+     "reviewedDate": 1784192049,
+     "textDetails": {
+      "positiveText": null,
+      "lang": "en",
+      "title": null,
+      "textTrivialFlag": 0,
+      "negativeText": null
+     },
+     "bookingDetails": {
+      "numNights": 1,
+      "checkoutDate": "2026-07-08",
+      "stayStatus": "stayed",
+      "customerType": "COUPLES",
+      "roomType": {
+       "name": "Private Room for 2 People (Shared Bathroom)",
+       "id": "949141224"
+      },
+      "checkinDate": "2026-07-07"
+     },
+     "helpfulVotesCount": null,
+     "reviewUrl": "e8d630d2599392d4",
+     "reviewScore": 5.0
+    },
+    {
+     "helpfulVotesCount": 0,
+     "reviewUrl": "26a4e5e4b25f4154",
+     "reviewScore": 2.0,
+     "guestDetails": {
+      "countryCode": "it",
+      "countryName": "Italy",
+      "guestTypeTranslation": "Solo traveller"
+     },
+     "textDetails": {
+      "lang": "it",
+      "positiveText": "sinceramente solamente la posizione e il personale adetto alla cena, il resto ZERO",
+      "title": "le foto che si vedono su booking non sono assolutamente vere ma neanche lontanamente soprattutto quelle delle camere, io",
+      "textTrivialFlag": 0,
+      "negativeText": "le foto che si vedono su booking non sono assolutamente vere ma neanche lontanamente soprattutto quelle delle camere, io e la mia fidanzata abbiamo preso una camera privata, ed era orribile, vecchia che cascava a pezzi, sporca è dir poco, con gomme appiccicate al muro del letto dove dormi, mozziconi di sigarette per la stanza, la pulizia della struttura era inesistente, la cucina era sporchissima compresa la sala pranzo, piena di capelli per giorni, macchie sui tavoli e sul muro h24\ni bagni si salvano quelli al secondo piano, quelli al piano terra facevano schifo"
+     },
+     "bookingDetails": {
+      "stayStatus": "stayed",
+      "checkoutDate": "2026-07-13",
+      "customerType": "SOLO_TRAVELLERS",
+      "numNights": 14,
+      "roomType": {
+       "name": "Private Room for 2 People (Shared Bathroom)",
+       "id": "949141224"
+      },
+      "checkinDate": "2026-06-29"
+     },
+     "reviewedDate": 1784024703,
+     "partnerReply": {
+      "reply": "We’re very sorry that we did not meet your expectations.\n\nThank you for taking the time to provide such detailed feedback. While we’re glad you appreciated our location and the dinner team, we sincerely apologise for the condition of the room and shared areas you experienced.\n\nThe cleanliness issues you described, including the cigarette butts, gum, hair, stains, and condition of the room and kitchen, are not the standard we want our guests to experience. We also understand your concerns regarding the difference between the advertised photos and the condition you found upon arrival.\n\nWe take this feedback seriously and will raise these concerns with our housekeeping and operations teams for review. We will also review the room presentation and listing photos to ensure they accurately represent the current condition of our property.\n\nWe’re sorry that your stay with us was disappointing, and we appreciate you bringing these matters to our attention. We hope we can use your feedback to improve the experience for future guests."
+     }
+    },
+    {
+     "guestDetails": {
+      "guestTypeTranslation": "Couple",
+      "countryCode": "tw",
+      "countryName": "Taiwan"
+     },
+     "partnerReply": null,
+     "reviewedDate": 1783733687,
+     "textDetails": {
+      "textTrivialFlag": 0,
+      "title": null,
+      "lang": "xt",
+      "positiveText": null,
+      "negativeText": null
+     },
+     "bookingDetails": {
+      "numNights": 7,
+      "stayStatus": "stayed",
+      "customerType": "COUPLES",
+      "checkoutDate": "2026-07-09",
+      "roomType": {
+       "id": "949141224",
+       "name": "Private Room for 2 People (Shared Bathroom)"
+      },
+      "checkinDate": "2026-07-02"
+     },
+     "helpfulVotesCount": null,
+     "reviewUrl": "be015cf91dc2a776",
+     "reviewScore": 8.0
+    },
+    {
+     "helpfulVotesCount": 0,
+     "reviewUrl": "9473729f130ee236",
+     "reviewScore": 4.0,
+     "guestDetails": {
+      "guestTypeTranslation": "Solo traveller",
+      "countryCode": "gb",
+      "countryName": "United Kingdom"
+     },
+     "partnerReply": {
+      "reply": "Thank you for your lovely feedback! 😊\n\nWe’re happy to hear that you felt safe during your stay and found our staff friendly and welcoming. We also appreciate your feedback about the top bunk. We understand that the bunk position can affect comfort and convenience, and we’ll keep this in mind when assisting guests with room allocations.\n\nThank you for staying with us, and we hope to welcome you back again soon! 💙"
+     },
+     "reviewedDate": 1783585685,
+     "bookingDetails": {
+      "roomType": {
+       "id": "949141210",
+       "name": "Mixed Pod 4 Beds Room with Sydney Harbour Bridge View"
+      },
+      "checkinDate": "2026-07-07",
+      "customerType": "SOLO_TRAVELLERS",
+      "stayStatus": "stayed",
+      "checkoutDate": "2026-07-08",
+      "numNights": 1
+     },
+     "textDetails": {
+      "title": null,
+      "lang": "en",
+      "positiveText": "It felt safe and the staff were nice.",
+      "textTrivialFlag": 0,
+      "negativeText": "Being on top bunk."
+     }
+    },
+    {
+     "reviewScore": 8.0,
+     "reviewUrl": "75611b339d65ce99",
+     "helpfulVotesCount": null,
+     "partnerReply": null,
+     "reviewedDate": 1783337667,
+     "bookingDetails": {
+      "roomType": {
+       "id": "949141210",
+       "name": "Mixed Pod 4 Beds Room with Sydney Harbour Bridge View"
+      },
+      "checkinDate": "2026-07-05",
+      "stayStatus": "stayed",
+      "checkoutDate": "2026-07-06",
+      "customerType": "SOLO_TRAVELLERS",
+      "numNights": 1
+     },
+     "textDetails": {
+      "negativeText": null,
+      "lang": "en",
+      "title": null,
+      "positiveText": null,
+      "textTrivialFlag": 0
+     },
+     "guestDetails": {
+      "countryCode": "gb",
+      "countryName": "United Kingdom",
+      "guestTypeTranslation": "Solo traveller"
+     }
+    },
+    {
+     "partnerReply": null,
+     "reviewedDate": 1783247854,
+     "bookingDetails": {
+      "roomType": {
+       "id": "949141224",
+       "name": "Private Room for 2 People (Shared Bathroom)"
+      },
+      "checkinDate": "2026-06-18",
+      "numNights": 3,
+      "stayStatus": "stayed",
+      "checkoutDate": "2026-06-21",
+      "customerType": "COUPLES"
+     },
+     "textDetails": {
+      "negativeText": null,
+      "textTrivialFlag": 0,
+      "lang": "fr",
+      "positiveText": null,
+      "title": null
+     },
+     "guestDetails": {
+      "guestTypeTranslation": "Couple",
+      "countryCode": "fr",
+      "countryName": "France"
+     },
+     "reviewScore": 7.0,
+     "reviewUrl": "6ea75bd7f2a00d4e",
+     "helpfulVotesCount": null
+    }
+   ],
+   "reviewsCount": 2459
+  }
+ }
+}

@@ -1,0 +1,218 @@
+# Topic catalogue + curated lexicon for the rules classifier.
+#
+# The 12 keys are FIXED by docs/CONTRACT.md (frontend relies on them).
+# label / description / sort_order are upserted into the `topics` table.
+#
+# Term syntax (all matching is case-insensitive, on whole words):
+#   "shared bathroom"  spaces also match hyphens / no space ("check in" ~ "check-in" ~ "checkin")
+#   "clean*"           trailing * = any word ending ("clean*" ~ cleaner, cleaning)
+#   plain terms automatically accept a plural "s"/"es" on the last word
+#   "re:<regex>"       raw regular expression (used sparingly)
+#
+# Term classes per topic:
+#   aspect   - names the topic but carries no opinion ("staff", "shower").
+#              Polarity comes from the field (liked = praise, disliked = complaint),
+#              overridden by clear opinion words in the same clause / negation.
+#   positive - opinion that is praise for this topic ("spotless", "quiet").
+#   negative - opinion that is a complaint for this topic ("filthy", "snoring").
+# When matches overlap, the longest span wins ("common area" beats "area",
+# "hair dryer" beats "hair", "bed bugs" beats "bed").
+
+topics:
+  - key: cleanliness
+    label: Cleanliness
+    description: Cleanliness and hygiene of rooms, pods, bathrooms and common areas - dirt, dust, hair, stains, smells and pests.
+    sort_order: 1
+    aspect: [cleanliness, cleaning, housekeeping, cleaner, cleaners, hygiene, "cleaning staff", "cleaning lady", tidiness]
+    positive: [clean, cleanest, spotless, tidy, immaculate, "well kept", hygienic, "spick and span", "squeaky clean", "super clean", "very clean", "so clean", "really clean", "nice and clean", "clean and tidy", "fresh sheets", "fresh linen", "fresh towels"]
+    negative:
+      - dirty
+      - dirtiest
+      - dirt
+      - filthy
+      - filth
+      - dust
+      - dusty
+      - stain*
+      - hair
+      - hairs
+      - "pubic hair*"
+      - mould
+      - mold
+      - mouldy
+      - moldy
+      - mildew
+      - grime
+      - grimy
+      - grubby
+      - smell*
+      - smelly
+      - stink*
+      - stank
+      - musty
+      - odour*
+      - odor*
+      - "bed bug*"
+      - bedbug*
+      - "bug bite*"
+      - bites
+      - cockroach*
+      - roach*
+      - bugs
+      - insects
+      - ants
+      - mice
+      - mouse
+      - rats
+      - unclean
+      - unhygienic
+      - sticky
+      - gross
+      - disgusting
+      - vomit
+      - rubbish
+      - "overflowing bin*"
+      - garbage
+      - trash
+      - "not cleaned"
+      - "never cleaned"
+      - "wasn't cleaned"
+      - "weren't cleaned"
+      - "could be cleaner"
+      - "could have been cleaner"
+      - "could've been cleaner"
+      - "needs a clean"
+      - "needs a good clean"
+      - "needs a deep clean"
+      - "need a clean"
+      - "need cleaning"
+      - "needs cleaning"
+      - "needed cleaning"
+      - "clean more"
+      - "cleaned more"
+      - "more clean"
+      - "cleaned more often"
+      - "clean more often"
+      - "cleaned regularly"
+      - "more regular cleaning"
+      - "cleanliness could be improved"
+      - "used towels"
+    anchored: []
+
+  - key: check_in
+    label: Check-in & check-out
+    description: Arrival and departure process - check-in/check-out speed, keys and access codes, booking problems, early/late check-in, deposits.
+    sort_order: 2
+    aspect: ["check in", "check ins", "checking in", "checked in", "check out", "checking out", "checked out", "self check in", "late check out", "early check in", "late check in", "after hours check in", "key card", keycard, "room key", key, keys, "key tag", "online reception", "virtual reception", "remote reception", "reception process", "video call", "self check in process", "online check in", "access code", "door code", "pin code", codes, "24 hour reception", "24/7 reception", "reception hours", "reception closed", deposit, bond, "booking confirmation", reservation, "id check", "passport"]
+    positive: ["easy check in", "quick check in", "smooth check in", "seamless check in", "check in was easy", "check in was quick", "check in was smooth", "early check in was", "let us check in early", "allowed us to check in early", "let me check in early", "allowed me to check in early"]
+    negative: ["long wait", "long queue", "waited for", "had to wait", "no one at reception", "nobody at reception", "no one at the desk", "nobody at the desk", "reception was closed", "room wasn't ready", "room was not ready", "room not ready", "lost our booking", "lost my booking", "no record of", "couldn't find our booking", "couldn't find my booking", overbooked, "over booked", "double booked", "locked out", "code didn't work", "code did not work", "key didn't work", "key card didn't work", "card didn't work"]
+    anchored: []
+
+  - key: staff
+    label: Staff & reception
+    description: Behaviour, friendliness and helpfulness of staff, reception and management.
+    sort_order: 3
+    aspect: [staff, staffs, "staff member*", reception, receptionist*, "front desk", "front office", manager, management, host, hosts, employee*, personnel, "customer service", "the team", "the guy at", "the lady at", "the girl at", "the man at", "the woman at", concierge, "night manager", "night staff"]
+    positive: [friendly, helpful, welcoming, accommodating, attentive, polite, courteous, "very kind", professional, "went above and beyond", "above and beyond", "super helpful", "so helpful", "extremely helpful", "very helpful", "very friendly", "super friendly", "so friendly", "lovely staff", "great staff", "friendly staff", "helpful staff", hospitable, hospitality, "great service", "excellent service", "good service", "amazing service", "fantastic service", "customer service was great", "customer service was excellent"]
+    negative: [rude, rudely, unhelpful, unfriendly, unprofessional, dismissive, arrogant, impolite, grumpy, "bad attitude", "poor attitude", "yelled", "shouted at", "ignored us", "ignored me", "not helpful", "not friendly", condescending, disrespectful, "hung up", "poor service", "bad service", "terrible service", "worst service", "no staff", "no one on site", "nobody on site"]
+    anchored: []
+
+  - key: noise
+    label: Noise
+    description: Noise from other guests, snoring, the street, bars, thin walls, doors or construction - and quietness when it is praised.
+    sort_order: 4
+    aspect: [soundproof*, "sound proof*", "sound insulation", earplug*, "ear plug*", "noise level*", "noise cancelling"]
+    positive: [quiet, quietly, peaceful, silent, tranquil, "well soundproofed", "good soundproofing", "slept soundly"]
+    negative: [noise, noises, noisy, noisiest, loud, loudly, snor*, "thin walls", "paper thin", slamming, slammed, "door slam*", "kept awake", "kept me awake", "kept us awake", "woke me", "woke us", "woken", "woken up", "could hear everything", "could hear", "hear everything", "hear every", construction, "building work*", "party noise", partying, "drunk people", "drunk guests", "screaming", "shouting", "banging", "music from", "loud music", "street noise", "traffic noise", "bar downstairs", "pub downstairs", "nightclub", "could be quieter", "not soundproof*", "no soundproof*", "rustling", "rustle", "plastic bags"]
+    anchored: []
+
+  - key: facilities
+    label: Shared facilities
+    description: Kitchen, lounge and common areas, lockers, luggage storage, lifts, laundry, rooftop and other amenities.
+    sort_order: 5
+    aspect: [facilities, facility, amenities, amenity, kitchen, kitchenette, "shared kitchen", "communal kitchen", lounge, "common area*", "common room*", "communal area*", "shared area*", "shared space*", "lounge area", "kitchen area", "dining area", locker*, "luggage storage", "bag storage", "luggage room", "store our bags", "store our luggage", "store my bags", "store my luggage", "keep our bags", "keep our luggage", "left luggage", lift, lifts, elevator*, stairs, staircase, "no elevator", laundry, "washing machine*", "laundry machine*", dryer, dryers, rooftop, "roof top", terrace, balcony, courtyard, fridge, fridges, microwave, kettle, toaster, "cooking facilities", utensils, parking, "car park", gym, pool, "tv room", "games room", "movie room", "vending machine*", "water fountain", "water refill", "free water", "iron", "ironing board", "charging station"]
+    positive: ["well equipped kitchen", "great facilities", "good facilities", "great kitchen", "nice kitchen"]
+    negative: ["no lift", "no elevator", "no kitchen", "no fridge", "no lockers", "lockers too small", "broken lift", "lift broken", "lift out of order", "lift was broken", "lift not working", "stairs only", "lots of stairs", "many stairs", "flights of stairs", "carry our luggage", "carry my luggage", "carry luggage up"]
+    anchored: []
+
+  - key: location
+    label: Location
+    description: Location and neighbourhood - convenience, proximity to transport, attractions, restaurants, and the safety of the area.
+    sort_order: 6
+    aspect: [location, located, situated, "the area", "area around", "surrounding area", "local area", "area is", "area was", "the neighbourhood", neighbourhood, neighborhood, surroundings, "close to", "walking distance", "walk to", "walking to", "walkable", "short walk", "minutes walk", "min walk", "mins walk", "minute walk", "minutes from", nearby, "near by", "near to", "steps from", "public transport", transport, "train station", station, "light rail", "bus stop", "bus stops", airport, "the city", "city centre", "city center", cbd, "the beach", "kings cross", "potts point", darlinghurst, "surry hills", "oxford st", "oxford street", paddington, "darling harbour", "darling harbor", chinatown, "central station", "town hall", "opera house", haymarket, pyrmont, "museum station", "hyde park", restaurants, cafes, "coffee shop*", "coffee place*", shops, shopping, supermarket*, bars, pubs, "things to do", attractions, "convenience store*", "7 eleven", "7-eleven", "woolworths", "coles"]
+    positive: [convenient, conveniently, "great location", "perfect location", "excellent location", "good location", "amazing location", "fantastic location", "ideal location", "central location", "centrally located", "close to everything", "walking distance to everything", "easy to get around", "well located", "well situated", "location was great", "location was perfect", "location is great", "location is perfect", "location was excellent", "location is excellent", "location was good", "location is good"]
+    negative: [sketchy, dodgy, seedy, "unsafe area", "not safe", "felt unsafe", "rough area", "far from", "a long way from", "hard to find", "difficult to find", "hilly", "uphill", "junkies", "homeless people", "drug users", "red light"]
+    anchored: []
+
+  - key: room_condition
+    label: Room / pod condition
+    description: Size, layout and state of repair of rooms and pods - space, privacy curtains, air-conditioning/heating, lighting, power outlets, broken fittings, windows.
+    sort_order: 7
+    aspect: ["air con", aircon, "air conditioning", "air conditioner", "air-con", "a/c", "the ac", heater, heating, "the fan", fans, window, windows, windowless, curtain, curtains, "privacy curtain*", "blackout curtain*", privacy, "power point*", "power outlet*", "power socket*", outlet, outlets, socket*, "usb port*", usb, "charging point*", "charging port*", "reading light*", "the light*", lighting, "pod light*", ventilation, maintenance, renovat*, refurbish*, carpet*, furniture, wardrobe, "hanging space", "storage space", "room size", "pod size", "size of the room", "size of the pod", tv, television, "shelf", "hooks", "blinds", "door lock"]
+    positive: [spacious, roomy, "well maintained", "well designed", "newly renovated", "recently renovated", "freshly renovated", modern, "brand new", cosy, cozy, "good size", "great size", "decent size", "plenty of space", "lots of space", "plenty of room", "lots of room", "good privacy", "private pod", "blackout curtain"]
+    negative: [cramped, claustrophobic, "tiny room", "small room", "room was small", "room was tiny", "rooms are small", "rooms are tiny", "room is small", "room is tiny", "pod was small", "pod was tiny", "no window", "no windows", "no natural light", "no ac", "no air con", "no aircon", "no air conditioning", "no ventilation", "too hot", "too cold", "very hot", "very cold", "so hot", "so cold", "freezing", "boiling", stuffy, humid, "no privacy", "not private", "lack of privacy", "no power point*", "no power outlet*", "no socket*", "not enough space", "no space", "no room for", "not enough room", "falling apart", "run down", "rundown", "worn out", "shabby", "dated", "old fashioned", "needs renovation", "needs renovating", "needs updating", "needs an update", "peeling", "cracked", "lock didn't", "door didn't lock", "door wouldn't lock", "no lock"]
+    anchored:
+      # descriptor words that only count when they sit next to a room/pod noun,
+      # because on their own they are too generic ("small", "old", "nice")
+      - anchors: [room, rooms, pod, pods, capsule, capsules, cabin, cabins, dorm, dorms, dormitory, "sleeping pod*", "bunk room", unit, apartment, studio]
+        window: 4
+        positive: [spacious, big, large, roomy, modern, new, renovated, updated, nice, lovely, great, good, comfortable, comfy, cosy, cozy, cute, perfect, "well designed", functional, bright, "fine", cool]
+        negative: [small, tiny, cramped, old, dated, tired, worn, shabby, "run down", broken, damaged, stuffy, hot, warm, cold, dark, claustrophobic, poor, bad, terrible, awful, horrible, uncomfortable, basic, "tight", "narrow", "too small", "very small", "so small", "a bit small", "quite small"]
+
+  - key: value_for_money
+    label: Value for money
+    description: Price relative to what was offered - value, cheapness, overpricing, extra fees and charges.
+    sort_order: 8
+    aspect: [price, prices, priced, pricing, value, "value for money", money, cost, costs, "room rate", "nightly rate", "for the price", "for the money", "for the cost", budget, "budget friendly", "budget hotel", fee, fees, surcharge, "cleaning fee", "credit card fee", "card fee", "card surcharge", worth, pay, paid, paying, refund*]
+    positive: [cheap, cheapest, affordable, "good value", "great value", "excellent value", "amazing value", "fantastic value", "best value", "value for money", reasonable, "reasonably priced", "reasonable price", "good price", "great price", bargain, inexpensive, "worth it", "worth every", "well worth", "worth the money", "worth the price", "money well spent", "price was right", "good deal", "great deal", "price is right", economical]
+    negative: [expensive, overpriced, "over priced", pricey, "rip off", ripoff, "rip-off", "not worth", "wasn't worth", "isn't worth", "extra charge*", "hidden fee*", "hidden charge*", overcharged, "over charged", "too much for", "too expensive", "waste of money", "charged extra", "charged us", "charged me", "no refund", "poor value", "bad value", "not good value", "price is too high", "price was too high", "for what you get", "for what you pay"]
+    anchored: []
+
+  - key: bathroom
+    label: Bathrooms & showers
+    description: Private or shared bathrooms - showers, toilets, hot water, water pressure, drainage, towels and toiletries.
+    sort_order: 9
+    aspect: [bathroom*, "shared bathroom*", "shared toilet*", "shared shower*", "communal bathroom*", shower*, toilet*, loo, loos, restroom*, washroom*, "wash room*", ensuite, "en suite", "hot water", "water pressure", towel*, sink, sinks, basin, basins, "hair dryer*", hairdryer*, toiletries, shampoo, conditioner, soap, "body wash", "hand wash", drain*, "shower head*", "shower curtain*", "bath mat", "shower room*", "the tap", taps, "toilet paper"]
+    positive: ["great shower*", "good shower*", "hot shower*", "strong water pressure", "good water pressure", "great water pressure", "plenty of hot water", "rain shower*"]
+    negative: ["no hot water", "cold shower*", "cold water", "lukewarm", "low water pressure", "poor water pressure", "bad water pressure", "weak water pressure", "no water pressure", "water pressure was low", "water pressure was weak", "water pressure was poor", "water pressure is low", blocked, clogged, flooded, flooding, "not enough bathrooms", "not enough toilets", "not enough showers", "only one bathroom", "only one shower", "only one toilet", "queue for the shower", "wait for the shower", "wait for the bathroom", "no towels", "no towel", "towels not provided", "no toiletries", "no soap", "no shampoo", "no toilet paper", "ran out of toilet paper"]
+    anchored: []
+
+  - key: bed_comfort
+    label: Bed & sleep comfort
+    description: Beds, mattresses, pillows, bunks, linen and blankets, and sleep comfort.
+    sort_order: 10
+    aspect: [bed, beds, bedding, mattress*, pillow*, bunk*, "bunk bed*", "top bunk", "bottom bunk", "upper bunk", "lower bunk", sheets, linen, linens, "bed linen", doona, duvet, quilt, blanket*, "bed frame", "the ladder", ladder]
+    positive: ["comfy bed*", "comfortable bed*", "bed was comfortable", "beds were comfortable", "bed was comfy", "beds were comfy", "bed is comfortable", "beds are comfortable", "bed is comfy", "slept well", "slept great", "good night's sleep", "great night's sleep", "good nights sleep", "great nights sleep", "good sleep", "great sleep"]
+    negative: ["uncomfortable bed*", "bed was uncomfortable", "beds were uncomfortable", "hard bed*", "hard mattress*", "bed was hard", "mattress was hard", "thin mattress*", "old mattress*", "saggy", "lumpy", "squeaky", "creaky", "springs", "flat pillow*", "hard pillow*", "thin pillow*", "no pillow*", "one pillow", "bad back", "back pain", "sore back", "wobbly", "wobbles", "shakes", "shaky"]
+    anchored:
+      - anchors: [bed, beds, mattress, mattresses, pillow, pillows, bunk, bunks, bedding, linen, sheets, blanket, blankets, doona, duvet]
+        window: 4
+        positive: [comfortable, comfy, soft, cosy, cozy, firm, great, good, nice, lovely, perfect, fresh, warm, big, "king size", "queen size"]
+        negative: [uncomfortable, hard, thin, lumpy, saggy, squeaky, creaky, noisy, small, narrow, short, tiny, flat, old, worn, bad, poor, terrible, awful, horrible, "too soft", "too hard", "too short", "too small", "too narrow", wobbly, unstable]
+
+  - key: wifi
+    label: Wi-Fi & connectivity
+    description: Wi-Fi availability, speed and reliability, and phone reception in the building.
+    sort_order: 11
+    aspect: [wifi, "wi fi", wireless, internet, "internet connection", "wifi connection", "connection", "phone reception", "mobile reception", "cell reception", "phone signal", "mobile signal", signal]
+    positive: ["fast wifi", "good wifi", "great wifi", "free wifi", "reliable wifi", "strong wifi", "fast internet", "good internet", "wifi was fast", "wifi was good", "wifi was great", "wifi is fast", "wifi is good"]
+    negative: ["no wifi", "slow wifi", "bad wifi", "poor wifi", "weak wifi", "patchy wifi", "terrible wifi", "wifi was slow", "wifi was bad", "wifi was poor", "wifi was patchy", "wifi was terrible", "wifi is slow", "wifi is bad", "wifi didn't work", "wifi did not work", "wifi wasn't working", "wifi not working", "wifi kept dropping", "kept disconnecting", "no signal", "no reception", "bad reception", "poor reception", "no internet", "slow internet", "internet was slow", "unreliable wifi", "wifi was unreliable", "wifi is unreliable", "couldn't connect", "could not connect"]
+    anchored: []
+
+  - key: breakfast_food
+    label: Breakfast & food
+    description: Breakfast, coffee/tea, snacks and any food offered at the property.
+    sort_order: 12
+    aspect: [breakfast*, "free breakfast", "complimentary breakfast", "continental breakfast", coffee, tea, "tea and coffee", "coffee and tea", food, meal*, toast, cereal*, pancake*, waffle*, fruit, eggs, bread, "orange juice", juice, milk, snacks, "free snacks", "hot drinks", "coffee machine", "coffee maker", "instant coffee", "vending machine*", "on site restaurant", "hotel restaurant", "room service", dinner, lunch]
+    positive: ["good breakfast", "great breakfast", "free breakfast", "delicious", "tasty", "free coffee", "free tea", "good coffee", "great coffee"]
+    negative: ["breakfast was poor", "poor breakfast", "bad breakfast", "limited breakfast", "breakfast was limited", "basic breakfast", "stale"]
+    anchored: []
+
+# Generic opinion words. Used (a) to resolve the polarity of aspect-only mentions
+# ("the staff were lovely" in the *disliked* box is praise) and (b) as a text signal
+# for review-level sentiment. They never create a topic on their own.
+sentiment:
+  positive: [good, great, excellent, amazing, awesome, fantastic, lovely, nice, perfect, wonderful, brilliant, superb, outstanding, friendly, helpful, comfortable, comfy, convenient, easy, smooth, quick, fast, efficient, spacious, quiet, fine, decent, beautiful, cosy, cozy, modern, love, loved, lovely, enjoy, enjoyed, best, impressive, reliable, pleasant, recommend, recommended, happy, "no problem", "no problems", "no issue", "no issues", "no complaints", clean, spotless, excited, fabulous, incredible, "not bad", cute, cool, generous, safe, secure, handy, ideal, stunning, gorgeous, polite, welcoming, attentive, kind, sweet, fab, top, "well done", super]
+  negative: [bad, poor, terrible, awful, horrible, worst, disappointing, disappointed, disappointment, dirty, rude, uncomfortable, slow, broken, noisy, loud, cramped, expensive, overpriced, issue, issues, problem, problems, unfortunately, sadly, lacking, unreliable, patchy, weak, annoying, annoyed, difficult, hard, disgusting, gross, smelly, filthy, never, avoid, faulty, unhelpful, unfriendly, unacceptable, frustrating, frustrated, useless, "not working", "didn't work", "doesn't work", "not great", "not good", "not clean", "not happy", horrendous, appalling, nasty, shocking, disgrace, mediocre, cold, hot, tiny, small, old, dated, tired, worn, shabby, stuffy, lukewarm, unsafe, sketchy, dodgy, "could be better", "could have been better", "should be", "needs to", "need to", "wish", complain, complained, "not enough", lack, "waste", "nightmare", "hassle", "crap", "shit", "sucks"]
+  strong_positive: [amazing, excellent, perfect, fantastic, outstanding, wonderful, superb, brilliant, loved, "highly recommend", "absolutely loved", incredible, fabulous, "would definitely stay", "will definitely stay", "would stay again", "will stay again", "will be back", "would recommend", "10/10", "exceeded"]
+  strong_negative: [terrible, awful, horrible, worst, disgusting, filthy, nightmare, avoid, unsafe, scam, "never again", "never stay", "would not recommend", "wouldn't recommend", "do not recommend", "don't recommend", "not recommend", "bed bug*", bedbug*, cockroach*, rude, refund, appalling, unacceptable, disgrace, "waste of money", horrendous, shocking, "rip off", ripoff, "stay away", "don't stay", "do not stay", "never come back", "not come back", "won't be back", "will not be back", "not coming back", "worst hotel", "worst place", "zero stars", "health hazard", "police", "stolen", "theft"]

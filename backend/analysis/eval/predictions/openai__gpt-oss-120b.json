@@ -1,0 +1,2677 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "meta": {
+  "requests": 12,
+  "prompt_tokens": 20951,
+  "completion_tokens": 18957,
+  "seconds": 328.6,
+  "errors": [
+   "LLMError: LLM returned invalid JSON: ValidationError"
+  ]
+ },
+ "results": {
+  "b797579e5ddb3a66": {
+   "sentiment": "negative",
+   "summary": "Guest found the room clean but struggled with confusing toilet codes for access.",
+   "topics": [
+    [
+     "check_in",
+     "negative"
+    ],
+    [
+     "cleanliness",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "cleanliness:positive": "clean",
+    "check_in:negative": "codes in toilets🫪make rooms self contain"
+   }
+  },
+  "c37914687ddd58fb": {
+   "sentiment": "neutral",
+   "summary": "Comfortable bed praised; shared bathroom was dirty though staff were friendly and helpful.",
+   "topics": [
+    [
+     "bathroom",
+     "negative"
+    ],
+    [
+     "bed_comfort",
+     "positive"
+    ],
+    [
+     "staff",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "bed_comfort:positive": "舒適寬敞明亮 床非常好睡",
+    "bathroom:negative": "廁所與衛浴並未像網站敘述般是在房內 而是共用衛浴 與敘述不符 共用衛浴地板經常非常髒亂但經過反映後有改善 清潔人員與遠端櫃檯工作者都非常友善且積極",
+    "staff:positive": "廁所與衛浴並未像網站敘述般是在房內 而是共用衛浴 與敘述不符 共用衛浴地板經常非常髒亂但經過反映後有改善 清潔人員與遠端櫃檯工作者都非常友善且積極"
+   }
+  },
+  "a30ccbd0164d1079": {
+   "sentiment": "positive",
+   "summary": "Excellent location, easy check-in, spotless modern rooms, and very helpful staff.",
+   "topics": [
+    [
+     "check_in",
+     "positive"
+    ],
+    [
+     "cleanliness",
+     "positive"
+    ],
+    [
+     "location",
+     "positive"
+    ],
+    [
+     "staff",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "The location was so convenient",
+    "check_in:positive": "The check in was super easy and rooms were extremely clean and modern",
+    "cleanliness:positive": "The check in was super easy and rooms were extremely clean and modern",
+    "staff:positive": "The staff very helpful and I was even given a tour by a friendly long term tenant"
+   }
+  },
+  "a7368aad1c70d1c1": {
+   "sentiment": "negative",
+   "summary": "Location acceptable but cleanliness and room condition were far below expectations.",
+   "topics": [
+    [
+     "cleanliness",
+     "negative"
+    ]
+   ],
+   "evidence": {
+    "cleanliness:negative": "La propreté est carrément à revoir, j ai du revisser la poignée de porte de la salle de bain"
+   }
+  },
+  "c604ef7e099aba61": {
+   "sentiment": "neutral",
+   "summary": "Nice view appreciated, but the limited bathroom facilities were a drawback.",
+   "topics": [
+    [
+     "bathroom",
+     "negative"
+    ],
+    [
+     "location",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "View",
+    "bathroom:negative": "less toilet"
+   }
+  },
+  "4002d069ee707aea": {
+   "sentiment": "positive",
+   "summary": "Quiet area, comfortable bed, good air-con, but breakfast was missed one morning.",
+   "topics": [
+    [
+     "bed_comfort",
+     "positive"
+    ],
+    [
+     "breakfast_food",
+     "negative"
+    ],
+    [
+     "noise",
+     "positive"
+    ],
+    [
+     "room_condition",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "noise:positive": "Close to bars but still quiet",
+    "bed_comfort:positive": "The bed was comfortable",
+    "room_condition:positive": "The room was chilly at night (good air con)",
+    "breakfast_food:negative": "One downside: missed breakfast one morning because it finished by 9"
+   }
+  },
+  "68d2f33f1860db1c": {
+   "sentiment": "negative",
+   "summary": "Staff treated guests poorly and the room lacked basic storage, forcing clothes onto the floor.",
+   "topics": [
+    [
+     "facilities",
+     "negative"
+    ],
+    [
+     "staff",
+     "negative"
+    ]
+   ],
+   "evidence": {
+    "staff:negative": "the stoff treated us as if we had leprosy and contagious diseases, and she has no closets, not even a nail on the wall to hang our clothes, and we had to throw",
+    "facilities:negative": "as if we had leprosy and contagious diseases, and she has no closets, not even a nail on the wall to hang our clothes, and we had to throw our clothes on the"
+   }
+  },
+  "53ff741ca0f0e969": {
+   "sentiment": "neutral",
+   "summary": "Good location noted, though the property feels very old and worn.",
+   "topics": [
+    [
+     "location",
+     "positive"
+    ],
+    [
+     "room_condition",
+     "negative"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "La posizione",
+    "room_condition:negative": "Molto vecchia"
+   }
+  },
+  "58cff24419996186": {
+   "sentiment": "positive",
+   "summary": "Spotless room, friendly staff, reliable Wi-Fi, and smooth virtual check-in experience.",
+   "topics": [
+    [
+     "cleanliness",
+     "positive"
+    ],
+    [
+     "staff",
+     "positive"
+    ],
+    [
+     "wifi",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "cleanliness:positive": "The room was very clean and well organised",
+    "staff:positive": "Alona and Julie were incredibly friendly and helpful, and the virtual check-",
+    "wifi:positive": "The Wi-Fi worked perfectly throughout our stay, and the access system with the entry code was very simple, convenient and made everything feel easy and secure"
+   }
+  },
+  "2afae36484d0e059": {
+   "sentiment": "negative",
+   "summary": "Only one shower was constantly busy, causing inconvenience for guests.",
+   "topics": [
+    [
+     "bathroom",
+     "negative"
+    ]
+   ],
+   "evidence": {
+    "bathroom:negative": "Only one shower, always busy"
+   }
+  },
+  "7f15db38031b9087": {
+   "sentiment": "neutral",
+   "summary": "Reasonably priced central location but many policy restrictions.",
+   "topics": [
+    [
+     "value_for_money",
+     "negative"
+    ],
+    [
+     "value_for_money",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "value_for_money:positive": "Very reasonable price for such a central location",
+    "value_for_money:negative": "A lot of restrictions and warnings about fines"
+   }
+  },
+  "e02d0a0b247c7c5e": {
+   "sentiment": "positive",
+   "summary": "Great central neighbourhood, but showers could be cleaner.",
+   "topics": [
+    [
+     "bathroom",
+     "negative"
+    ],
+    [
+     "location",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "The hostel is in a very central neighborhood",
+    "bathroom:negative": "The common showers could be a little cleaner"
+   }
+  },
+  "5f6ad9aa259f06c8": {
+   "sentiment": "negative",
+   "summary": "Good location but cockroaches, jammed window and no air-conditioning.",
+   "topics": [
+    [
+     "cleanliness",
+     "negative"
+    ],
+    [
+     "cleanliness",
+     "positive"
+    ],
+    [
+     "location",
+     "positive"
+    ],
+    [
+     "room_condition",
+     "negative"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "Great location if you're wanting to head over to the scg or Allianz stadium fridge in the room kept our stuff very cold and the room itself looked quite clean",
+    "cleanliness:positive": "if you're wanting to head over to the scg or Allianz stadium fridge in the room kept our stuff very cold and the room itself looked quite clean initially",
+    "cleanliness:negative": "There was a few cockroach's in the room at one stage, the window in the room was jammed open with no way to close it, there was also no fans or A/C in the room",
+    "room_condition:negative": "There was a few cockroach's in the room at one stage, the window in the room was jammed open with no way to close it, there was also no fans or A/C in the room"
+   }
+  },
+  "682d57bc349ad1f3": {
+   "sentiment": "neutral",
+   "summary": "Helpful staff and easy check-in, but shower and bathroom were dirty.",
+   "topics": [
+    [
+     "bathroom",
+     "negative"
+    ],
+    [
+     "check_in",
+     "positive"
+    ],
+    [
+     "cleanliness",
+     "negative"
+    ],
+    [
+     "staff",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "staff:positive": "Staff gave all the needed information to check in and get into the room",
+    "check_in:positive": "It was easy to navigate how to get in to our room",
+    "cleanliness:negative": "The shower was really dirty and needs a good clean, it also needed mat for the shower and it didnt come with one",
+    "bathroom:negative": "The toilet paper holder was broken, that needed to be fixed and maybe a hand towel and soap for the sink aswell"
+   }
+  },
+  "a5698a52935ac7f7": {
+   "sentiment": "positive",
+   "summary": "Quick check-in, helpful staff and tidy spacious room made stay comfortable.",
+   "topics": [
+    [
+     "check_in",
+     "positive"
+    ],
+    [
+     "cleanliness",
+     "positive"
+    ],
+    [
+     "room_condition",
+     "positive"
+    ],
+    [
+     "staff",
+     "positive"
+    ],
+    [
+     "value_for_money",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "check_in:positive": "The check in process was quick and easy, and the staff were responsive and super helpful",
+    "staff:positive": "The check in process was quick and easy, and the staff were responsive and super helpful",
+    "cleanliness:positive": "The room was tidy, spacious and comfortable",
+    "room_condition:positive": "The room was tidy, spacious and comfortable",
+    "value_for_money:positive": "The check in process was quick and easy, and the staff were responsive and super helpful"
+   }
+  },
+  "2998a0beabf685ea": {
+   "sentiment": "negative",
+   "summary": "Unstructured, rundown property with poor cleanliness and bad value for money.",
+   "topics": [
+    [
+     "breakfast_food",
+     "positive"
+    ],
+    [
+     "cleanliness",
+     "negative"
+    ],
+    [
+     "room_condition",
+     "negative"
+    ],
+    [
+     "value_for_money",
+     "negative"
+    ]
+   ],
+   "evidence": {
+    "room_condition:negative": "Alles sehr unstrukturiert und heruntergekommen",
+    "cleanliness:negative": "Organisation, Sauberkeit, Preis-Leistungs-Verhältnis",
+    "value_for_money:negative": "Organisation, Sauberkeit, Preis-Leistungs-Verhältnis",
+    "breakfast_food:positive": "Abendessen"
+   }
+  },
+  "27aea27d514042d9": {
+   "sentiment": "neutral",
+   "summary": "Great location but cleanliness was not well maintained.",
+   "topics": [
+    [
+     "cleanliness",
+     "negative"
+    ],
+    [
+     "location",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "the location was great",
+    "cleanliness:negative": "the cleanliness wasnt quilte maintained"
+   }
+  },
+  "e009fdee85b9f21e": {
+   "sentiment": "positive",
+   "summary": "Convenient central spot, spotless room and smooth online reception.",
+   "topics": [
+    [
+     "check_in",
+     "positive"
+    ],
+    [
+     "cleanliness",
+     "positive"
+    ],
+    [
+     "location",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "Restaurants, pubs, and cafes nearby made it lively; the room was spotless, and online reception worked so smoothly",
+    "cleanliness:positive": "Restaurants, pubs, and cafes nearby made it lively; the room was spotless, and online reception worked so smoothly",
+    "check_in:positive": "Restaurants, pubs, and cafes nearby made it lively; the room was spotless, and online reception worked so smoothly"
+   }
+  },
+  "a85c306696fe36bf": {
+   "sentiment": "negative",
+   "summary": "Budget-friendly location but hard bed and no tea/coffee service.",
+   "topics": [
+    [
+     "bed_comfort",
+     "negative"
+    ],
+    [
+     "location",
+     "positive"
+    ],
+    [
+     "value_for_money",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "Location and budget",
+    "value_for_money:positive": "Location and budget",
+    "bed_comfort:negative": "Hard bed could have tea/coffee"
+   }
+  },
+  "715b29985cde78a5": {
+   "sentiment": "neutral",
+   "summary": "Good location, but shared bathroom was only moderately acceptable.",
+   "topics": [
+    [
+     "bathroom",
+     "negative"
+    ],
+    [
+     "location",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "It was close to everything i enjoyed the environment of where i stayed",
+    "bathroom:negative": "The shared bathroom but it was manageable thank you"
+   }
+  },
+  "34304e018a7d8687": {
+   "sentiment": "positive",
+   "summary": "Great location and value with smooth booking, but reception desk could be improved.",
+   "topics": [
+    [
+     "check_in",
+     "positive"
+    ],
+    [
+     "facilities",
+     "negative"
+    ],
+    [
+     "location",
+     "positive"
+    ],
+    [
+     "value_for_money",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "Great location, no hassle with booking and great value",
+    "check_in:positive": "Great location, no hassle with booking and great value",
+    "value_for_money:positive": "Great location, no hassle with booking and great value",
+    "facilities:negative": "A proper reception desk might be better with the remote one for more obscure hours"
+   }
+  },
+  "ad78c8a940c75580": {
+   "sentiment": "negative",
+   "summary": "No substantive feedback provided; low score indicates dissatisfaction.",
+   "topics": [],
+   "evidence": {}
+  },
+  "61254a58b77517d4": {
+   "sentiment": "neutral",
+   "summary": "Bathroom cleanliness was the only issue noted.",
+   "topics": [
+    [
+     "bathroom",
+     "negative"
+    ]
+   ],
+   "evidence": {
+    "bathroom:negative": "Bathroom was not clean"
+   }
+  },
+  "cf3d268a54a96fbc": {
+   "sentiment": "positive",
+   "summary": "Guest enjoyed a beautiful view and convenient location.",
+   "topics": [
+    [
+     "location",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "Schöne Aussicht"
+   }
+  },
+  "b5dd03c083f5278b": {
+   "sentiment": "negative",
+   "summary": "Price and location were good, but overall property suffered from poor cleanliness and facilities.",
+   "topics": [
+    [
+     "bathroom",
+     "negative"
+    ],
+    [
+     "cleanliness",
+     "negative"
+    ],
+    [
+     "facilities",
+     "negative"
+    ],
+    [
+     "location",
+     "positive"
+    ],
+    [
+     "value_for_money",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "value_for_money:positive": "The price and location were good",
+    "location:positive": "The price and location were good",
+    "facilities:negative": "The lobby looked like an unwelcoming storage room",
+    "cleanliness:negative": "The total lack of attention to detail was unbelievably poor, even for a budget hotel",
+    "bathroom:negative": "There was also clearly a sewerage issue in the bathrooms that made the smell in the hallway unbearable"
+   }
+  },
+  "cdea2877d7771ee9": {
+   "sentiment": "neutral",
+   "summary": "Location was convenient, but cleanliness and noise issues were noted.",
+   "topics": [
+    [
+     "cleanliness",
+     "negative"
+    ],
+    [
+     "location",
+     "positive"
+    ],
+    [
+     "noise",
+     "negative"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "The location was good for public transportation",
+    "cleanliness:negative": "There was a kettle, but no cups and cockroaches, which I did inform the virtual receptionist about",
+    "noise:negative": "It's a little noisy when people have walked past your room"
+   }
+  },
+  "3fc5f8cf3f27a55e": {
+   "sentiment": "positive",
+   "summary": "Key tag issue noted, but overall stay was good.",
+   "topics": [
+    [
+     "check_in",
+     "negative"
+    ]
+   ],
+   "evidence": {
+    "check_in:negative": "Key needs a tag"
+   }
+  },
+  "a684ff1f262fa9b0": {
+   "sentiment": "negative",
+   "summary": "Check-in delays and dirty bedding affected the stay despite a comfortable bed.",
+   "topics": [
+    [
+     "bed_comfort",
+     "positive"
+    ],
+    [
+     "check_in",
+     "negative"
+    ],
+    [
+     "cleanliness",
+     "negative"
+    ],
+    [
+     "room_condition",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "bed_comfort:positive": "La cama es cómoda y tiene cortinas de privacidad",
+    "room_condition:positive": "La cama es cómoda y tiene cortinas de privacidad",
+    "check_in:negative": "Llegué y no estaba listo mi check in",
+    "cleanliness:negative": "Cuando me asignaron la cama estaba super sucia y con cosas del huesped anterior"
+   }
+  },
+  "bd14424fdbf3f65f": {
+   "sentiment": "neutral",
+   "summary": "Location was convenient and staff were helpful.",
+   "topics": [
+    [
+     "location",
+     "positive"
+    ],
+    [
+     "staff",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "Handy location",
+    "staff:positive": "Staff is very helpful"
+   }
+  },
+  "134287cb12169c9c": {
+   "sentiment": "positive",
+   "summary": "Extremely clean, comfortable, and secure hostel with soft bedding.",
+   "topics": [
+    [
+     "bed_comfort",
+     "positive"
+    ],
+    [
+     "cleanliness",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "bed_comfort:positive": "+ the pillow and bed were exceptionally soft and clean, which was impressive",
+    "cleanliness:positive": "this was by far the cleanest, most comfortable, and secure hostel I've encountered in Sydney"
+   }
+  },
+  "2388f7a7800d355e": {
+   "sentiment": "negative",
+   "summary": "Room was spacious with good facilities but bathroom and staff were poor.",
+   "topics": [
+    [
+     "bathroom",
+     "negative"
+    ],
+    [
+     "facilities",
+     "positive"
+    ],
+    [
+     "location",
+     "positive"
+    ],
+    [
+     "staff",
+     "negative"
+    ]
+   ],
+   "evidence": {
+    "facilities:positive": "La habitación era amplia y tenía microondas hervidor y refrigerador",
+    "location:positive": "Locomoción cerca",
+    "bathroom:negative": "Aseo, baños compartidos malos y viejos",
+    "staff:negative": "No hay recepcionista, solo una asistente remota"
+   }
+  },
+  "035ee4ae91790134": {
+   "sentiment": "neutral",
+   "summary": "Comfortable mattress praised while the bathroom was dirty.",
+   "topics": [
+    [
+     "bathroom",
+     "negative"
+    ],
+    [
+     "bed_comfort",
+     "positive"
+    ],
+    [
+     "cleanliness",
+     "negative"
+    ]
+   ],
+   "evidence": {
+    "bed_comfort:positive": "Good mattress and pillows",
+    "bathroom:negative": "Dirty bathroom",
+    "cleanliness:negative": "Dirty bathroom"
+   }
+  },
+  "48b8983d0ac0527f": {
+   "sentiment": "positive",
+   "summary": "Clean, well-equipped room appreciated despite missing kitchen cutlery.",
+   "topics": [
+    [
+     "cleanliness",
+     "positive"
+    ],
+    [
+     "facilities",
+     "negative"
+    ],
+    [
+     "facilities",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "cleanliness:positive": "Very Clean and well equipped room with fridge and microwave",
+    "facilities:positive": "Very Clean and well equipped room with fridge and microwave",
+    "facilities:negative": "Kitchen lacked cutlery"
+   }
+  },
+  "aa7b022d701f9c36": {
+   "sentiment": "negative",
+   "summary": "Good location and staff, but cramped pod and check-in problems hurt the stay.",
+   "topics": [
+    [
+     "check_in",
+     "negative"
+    ],
+    [
+     "location",
+     "positive"
+    ],
+    [
+     "room_condition",
+     "negative"
+    ],
+    [
+     "staff",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "Location good",
+    "staff:positive": "Staff were fantastic and helped improve my stay",
+    "room_condition:negative": "Very cramped space",
+    "check_in:negative": "Difficulty with accessing room"
+   }
+  },
+  "f691ade99fd677f1": {
+   "sentiment": "negative",
+   "summary": "Repeated nighttime disturbances from a bunk-mate made the stay unacceptable.",
+   "topics": [
+    [
+     "noise",
+     "negative"
+    ]
+   ],
+   "evidence": {
+    "noise:negative": "Person below my bunk bed was kicking his bed to wake me up, because I was sleeping and he wasn't this happened on several nights and occasions"
+   }
+  },
+  "ce04f5efb6c2f935": {
+   "sentiment": "positive",
+   "summary": "Clean hostel with great location and friendly atmosphere worth the price.",
+   "topics": [
+    [
+     "location",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "Great location, with a friendly neighborhood and sociable roommates"
+   }
+  },
+  "974d1251fa3118ae": {
+   "sentiment": "negative",
+   "summary": "Noisy, dirty room with pests and poor bathroom facilities, far from description.",
+   "topics": [
+    [
+     "bathroom",
+     "negative"
+    ],
+    [
+     "cleanliness",
+     "negative"
+    ],
+    [
+     "noise",
+     "negative"
+    ]
+   ],
+   "evidence": {
+    "noise:negative": "Не соответствует описанию как в объявлении, слышимость очень сильная, всех соседей слышно, постельное белье и полотенце еле поменяли 4 дня ходил просил, в",
+    "cleanliness:negative": "как в объявлении, слышимость очень сильная, всех соседей слышно, постельное белье и полотенце еле поменяли 4 дня ходил просил, в комнате тараканы и грязно",
+    "bathroom:negative": "Вытяжка с душа обратно в комнату"
+   }
+  },
+  "4a9f6f2684d9dd1b": {
+   "sentiment": "neutral",
+   "summary": "Excellent location and spacious room, but reception setup made check-in unfriendly.",
+   "topics": [
+    [
+     "check_in",
+     "negative"
+    ],
+    [
+     "facilities",
+     "positive"
+    ],
+    [
+     "location",
+     "positive"
+    ],
+    [
+     "room_condition",
+     "positive"
+    ],
+    [
+     "staff",
+     "negative"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "Excelente ubicación",
+    "room_condition:positive": "La habitación era espaciosa y tenía frigorífico",
+    "facilities:positive": "La habitación era espaciosa y tenía frigorífico",
+    "staff:negative": "No había personal en recepción, todo era a través de videollamada por el PC que tienen instalado",
+    "check_in:negative": "No había personal en recepción, todo era a través de videollamada por el PC que tienen instalado"
+   }
+  },
+  "a54a9af0d807d866": {
+   "sentiment": "positive",
+   "summary": "Staff, especially reception, provided excellent service and smooth check-in, enhancing a great location.",
+   "topics": [
+    [
+     "check_in",
+     "positive"
+    ],
+    [
+     "location",
+     "positive"
+    ],
+    [
+     "staff",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "staff:positive": "But the help of the staff, specially Shella at reception made the journey very pleasant",
+    "check_in:positive": "We didn't have to worry about check-in or check-out",
+    "location:positive": "I initially chose the hotel because of the location"
+   }
+  },
+  "ab43611580c2ccc5": {
+   "sentiment": "negative",
+   "summary": "Location fine but damp sheets, sagging mattress, smell and bathroom shortage lowered the experience.",
+   "topics": [
+    [
+     "bathroom",
+     "negative"
+    ],
+    [
+     "bed_comfort",
+     "negative"
+    ],
+    [
+     "cleanliness",
+     "negative"
+    ],
+    [
+     "location",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "Location is fine",
+    "bed_comfort:negative": "Damp sheets, sagging mattress, smelly room (I recon that's why doors in the lounge are open throughout the night, which makes it even colder and unsafe), not",
+    "cleanliness:negative": "Damp sheets, sagging mattress, smelly room (I recon that's why doors in the lounge are open throughout the night, which makes it even colder and unsafe), not",
+    "bathroom:negative": "mattress, smelly room (I recon that's why doors in the lounge are open throughout the night, which makes it even colder and unsafe), not enough bathrooms, etc"
+   }
+  },
+  "556f238d1087388b": {
+   "sentiment": "neutral",
+   "summary": "Location and price are good but bathrooms, breakfast and dinner are poor.",
+   "topics": [
+    [
+     "bathroom",
+     "negative"
+    ],
+    [
+     "breakfast_food",
+     "negative"
+    ],
+    [
+     "location",
+     "positive"
+    ],
+    [
+     "value_for_money",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "La ubicación y precio",
+    "value_for_money:positive": "La ubicación y precio",
+    "bathroom:negative": "El aseo de los baños, el desayuno y cena muy mal",
+    "breakfast_food:negative": "El aseo de los baños, el desayuno y cena muy mal"
+   }
+  },
+  "fe1619d6599167d1": {
+   "sentiment": "positive",
+   "summary": "Many affordable tasty bars nearby make the location enjoyable.",
+   "topics": [
+    [
+     "location",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "ホステルの周りには、美味しくてそれほど高くないバーがたくさんあり、地元のシーンを簡単に楽しむことができる。"
+   }
+  },
+  "05c0d86ab6d5b4c0": {
+   "sentiment": "negative",
+   "summary": "Good location but forced online check-in and ID upload were disliked.",
+   "topics": [
+    [
+     "check_in",
+     "negative"
+    ],
+    [
+     "location",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "The location to the venue was excellent",
+    "check_in:negative": "I didn't like being directed to log in online before I got there"
+   }
+  },
+  "a069b759661f6a15": {
+   "sentiment": "positive",
+   "summary": "Quiet stay, but the front door was stiff.",
+   "topics": [
+    [
+     "facilities",
+     "negative"
+    ]
+   ],
+   "evidence": {
+    "facilities:negative": "Stiffness of front door"
+   }
+  },
+  "6bc82625929c43f2": {
+   "sentiment": "negative",
+   "summary": "Photos are misleading; cockroaches were found in the room.",
+   "topics": [
+    [
+     "cleanliness",
+     "negative"
+    ]
+   ],
+   "evidence": {
+    "cleanliness:negative": "Les cafards dans la chambre"
+   }
+  },
+  "7e9e065b2a131155": {
+   "sentiment": "neutral",
+   "summary": "Quiet and private environment, though kitchen and shared areas were dirty and bathrooms insufficient.",
+   "topics": [
+    [
+     "bathroom",
+     "negative"
+    ],
+    [
+     "cleanliness",
+     "negative"
+    ],
+    [
+     "noise",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "noise:positive": "Quiet and private",
+    "cleanliness:negative": "Kitchen and shared spaces were a little bit dirty",
+    "bathroom:negative": "Not enough bathrooms for the number of people/beds"
+   }
+  },
+  "83f09890644037f7": {
+   "sentiment": "positive",
+   "summary": "Convenient shops and transport, and surprisingly spacious pods.",
+   "topics": [
+    [
+     "location",
+     "positive"
+    ],
+    [
+     "room_condition",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "Everything you need is within reach - shops, trains, coffee",
+    "room_condition:positive": "The pods were surprisingly spacious"
+   }
+  },
+  "de513edcf3ba60d4": {
+   "sentiment": "negative",
+   "summary": "Location and bed were good, but shared bathrooms were grimy and lacked basic fixtures.",
+   "topics": [
+    [
+     "bathroom",
+     "negative"
+    ],
+    [
+     "bed_comfort",
+     "positive"
+    ],
+    [
+     "cleanliness",
+     "negative"
+    ],
+    [
+     "location",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "Location was close to Allianz Stadium and Oxford Street shops/buses",
+    "bed_comfort:positive": "The bed and linen was good",
+    "bathroom:negative": "The co-shared bathrooms were not up to the standard required for a hotel (the floor and wall tiles were grimy and had mouldy residue) - even basic things like",
+    "cleanliness:negative": "not up to the standard required for a hotel (the floor and wall tiles were grimy and had mouldy residue) - even basic things like the bathroom lacking"
+   }
+  },
+  "00a83e30cc78eb68": {
+   "sentiment": "positive",
+   "summary": "Very clean, comfortable stay with helpful and friendly staff.",
+   "topics": [
+    [
+     "bed_comfort",
+     "positive"
+    ],
+    [
+     "cleanliness",
+     "positive"
+    ],
+    [
+     "staff",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "cleanliness:positive": "Very clean, comfortable, and convenient",
+    "bed_comfort:positive": "Very clean, comfortable, and convenient",
+    "staff:positive": "The staff was super helpful and friendly especially Shella"
+   }
+  },
+  "2351321f8432f5d2": {
+   "sentiment": "negative",
+   "summary": "Central location but poor communication, bedding errors, missing items and no breakfast.",
+   "topics": [
+    [
+     "breakfast_food",
+     "negative"
+    ],
+    [
+     "location",
+     "positive"
+    ],
+    [
+     "room_condition",
+     "negative"
+    ],
+    [
+     "staff",
+     "negative"
+    ],
+    [
+     "value_for_money",
+     "negative"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "Att det var centralt, det stod att det var inkluderad frukost men när vi frågade om det så visade det sig att de inte hade frukost",
+    "breakfast_food:negative": "Att det var centralt, det stod att det var inkluderad frukost men när vi frågade om det så visade det sig att de inte hade frukost",
+    "staff:negative": "Min upplevelse av detta hostel var tyvärr mycket dålig, främst på grund av bristande kommunikation mellan receptionen och städpersonalen",
+    "room_condition:negative": "När jag förlängde min vistelse bäddades min säng om, trots att jag fortfarande bodde där",
+    "value_for_money:negative": "Billigt hostel men inte värt pengarna"
+   }
+  },
+  "38aa42b751696985": {
+   "sentiment": "neutral",
+   "summary": "Good location but noisy air-conditioning made the stay uncomfortable.",
+   "topics": [
+    [
+     "location",
+     "positive"
+    ],
+    [
+     "noise",
+     "negative"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "The location was awesome being within walking distance to the botanical gardens and cbd",
+    "noise:negative": "The really annoying and loud aircon that didn't even need to be on as the outside air temp was 18 and the aircon was set at 20 😄 plus the window was open"
+   }
+  },
+  "119b69a4ff5d8e54": {
+   "sentiment": "positive",
+   "summary": "Excellent location and well-maintained facilities, with only a minor crowding issue at dinner.",
+   "topics": [
+    [
+     "facilities",
+     "positive"
+    ],
+    [
+     "location",
+     "positive"
+    ],
+    [
+     "value_for_money",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "The location is truly ideal-quiet and charming, yet still close to the action",
+    "facilities:positive": "The backyard and dining area stood out to me as peaceful spots where you could relax, grab a cup of coffee, or get some work done if needed",
+    "value_for_money:positive": "Point for just one night as part of a longer business trip across Australia, and I was genuinely impressed by how comfortable and convenient the experience was"
+   }
+  },
+  "53e8e322d68ddb3c": {
+   "sentiment": "negative",
+   "summary": "Very small, noisy rooms with poor facilities and limited staff help.",
+   "topics": [
+    [
+     "bathroom",
+     "negative"
+    ],
+    [
+     "noise",
+     "negative"
+    ],
+    [
+     "room_condition",
+     "negative"
+    ],
+    [
+     "staff",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "room_condition:negative": "Too small rooms birds noises in the night no fan in the room no water",
+    "noise:negative": "Too small rooms birds noises in the night no fan in the room no water",
+    "bathroom:negative": "Too small rooms birds noises in the night no fan in the room no water",
+    "staff:positive": "Only customer service is ok"
+   }
+  },
+  "86d1c9f4515df5e5": {
+   "sentiment": "positive",
+   "summary": "Overall good stay but missing kitchen utensils and a microwave.",
+   "topics": [
+    [
+     "facilities",
+     "negative"
+    ]
+   ],
+   "evidence": {
+    "facilities:negative": "No kitchen utensils or microwave"
+   }
+  },
+  "30d07ba4e524fecf": {
+   "sentiment": "negative",
+   "summary": "Extremely dirty rooms with blood stains and inadequate shower facilities.",
+   "topics": [
+    [
+     "bathroom",
+     "negative"
+    ],
+    [
+     "cleanliness",
+     "negative"
+    ]
+   ],
+   "evidence": {
+    "cleanliness:negative": "Coughing on food, blood stains on pillow, sexual excrement on curtains",
+    "bathroom:negative": "Hose instead of shower"
+   }
+  },
+  "3edfdee7eb5b90a8": {
+   "sentiment": "positive",
+   "summary": "Friendly people and great location, though the hostel is rundown and messy.",
+   "topics": [
+    [
+     "cleanliness",
+     "negative"
+    ],
+    [
+     "location",
+     "positive"
+    ],
+    [
+     "room_condition",
+     "negative"
+    ],
+    [
+     "staff",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "staff:positive": "Die Menschen, das gemeinsame Zusammenkommen beim Essen und die Lage",
+    "location:positive": "Gute Lage, nette Menschen, jedoch sehr heruntergekommen und lein Aufenthaltsraum oder Rezeption",
+    "room_condition:negative": "Es ist sehr heruntergekommen, die Möbel fallen auseinander, überall liegen Sachen rum",
+    "cleanliness:negative": "Das Hostel ist auch unordentlich und es gibt keinen richtigen Aufenthaltsraum"
+   }
+  },
+  "3ed68b1bf84faf7d": {
+   "sentiment": "positive",
+   "summary": "Well-located with clean rooms, good staff, and included meals, but the room was a bit cold.",
+   "topics": [
+    [
+     "breakfast_food",
+     "positive"
+    ],
+    [
+     "cleanliness",
+     "positive"
+    ],
+    [
+     "location",
+     "positive"
+    ],
+    [
+     "room_condition",
+     "negative"
+    ],
+    [
+     "staff",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "l'hostel est super bien placé, vous pouvez aller à pied dans le centre ville",
+    "staff:positive": "l'accueil se fait avec caméra ils sont réactifs (merci Shella)",
+    "cleanliness:positive": "les chambres sont propres",
+    "breakfast_food:positive": "vous avez petit déjeuner complet et repas le soir compris dans le prix",
+    "room_condition:negative": "Il fait un peu froid dans la chambre, mal isolé , mais ça va pour dormir vous avez une couette"
+   }
+  },
+  "c63c8a31b94120ac": {
+   "sentiment": "positive",
+   "summary": "Friendly staff, easy check-in, comfortable clean room, good location and price.",
+   "topics": [
+    [
+     "check_in",
+     "positive"
+    ],
+    [
+     "cleanliness",
+     "positive"
+    ],
+    [
+     "location",
+     "positive"
+    ],
+    [
+     "room_condition",
+     "positive"
+    ],
+    [
+     "staff",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "staff:positive": "How friendly all the staff was",
+    "check_in:positive": "They communicated with me and made the check-in process very easily",
+    "room_condition:positive": "The room was very comfortable and have pretty much everything I needed",
+    "location:positive": "Location is good, near to a bus stop",
+    "cleanliness:positive": "And it was pretty clean"
+   }
+  },
+  "28350e43579dd4e6": {
+   "sentiment": "negative",
+   "summary": "Filthy hostel with pests, shared passwords, and unhelpful reception.",
+   "topics": [
+    [
+     "bathroom",
+     "negative"
+    ],
+    [
+     "cleanliness",
+     "negative"
+    ],
+    [
+     "staff",
+     "negative"
+    ]
+   ],
+   "evidence": {
+    "cleanliness:negative": "Todo estaba sucio. Cucarachas hasta en las habitaciones, todo lleno de basura por todos lados, vimos ratas",
+    "bathroom:negative": "0 higiénico y los baños ni te cuento",
+    "staff:negative": "Encima que la recepción es todo por wsp y una pantalla tipo tablet, les decías algo y lo único que saben decir es 'lo siento' pero no arreglan nada"
+   }
+  },
+  "967e1c8ce1af3edc": {
+   "sentiment": "neutral",
+   "summary": "Comfortable bed and simple breakfast, but facilities need renovation and dinner quality is poor.",
+   "topics": [
+    [
+     "bed_comfort",
+     "positive"
+    ],
+    [
+     "breakfast_food",
+     "negative"
+    ],
+    [
+     "breakfast_food",
+     "positive"
+    ],
+    [
+     "facilities",
+     "negative"
+    ]
+   ],
+   "evidence": {
+    "bed_comfort:positive": "Cama confortável",
+    "breakfast_food:positive": "Pequeno almoço simples",
+    "facilities:negative": "Instalações a precisar de remodelação",
+    "breakfast_food:negative": "Na maior parte dos dias a comida do jantar era má"
+   }
+  },
+  "1151b22ff9885b92": {
+   "sentiment": "positive",
+   "summary": "Guest had a good overall experience.",
+   "topics": [],
+   "evidence": {}
+  },
+  "a77c41656495c310": {
+   "sentiment": "positive",
+   "summary": "Guest liked the convenient location.",
+   "topics": [
+    [
+     "location",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "Location good"
+   }
+  },
+  "779a0fb298373f24": {
+   "sentiment": "negative",
+   "summary": "Guest was dissatisfied with the building and cleanliness.",
+   "topics": [
+    [
+     "cleanliness",
+     "negative"
+    ],
+    [
+     "room_condition",
+     "negative"
+    ]
+   ],
+   "evidence": {
+    "room_condition:negative": "I don't like the building and the dirty areas",
+    "cleanliness:negative": "I don't like the building and the dirty areas"
+   }
+  },
+  "3e8b18d905becc35": {
+   "sentiment": "neutral",
+   "summary": "Mixed experience with comfortable beds but several facility issues.",
+   "topics": [
+    [
+     "bathroom",
+     "negative"
+    ],
+    [
+     "bed_comfort",
+     "positive"
+    ],
+    [
+     "check_in",
+     "negative"
+    ],
+    [
+     "cleanliness",
+     "negative"
+    ],
+    [
+     "room_condition",
+     "negative"
+    ]
+   ],
+   "evidence": {
+    "bed_comfort:positive": "Beds are great",
+    "room_condition:negative": "wet, (but pressure and water temperature are good) kitchenware is poorly washed and the place is older and beaten up compared to what is shown on booking",
+    "cleanliness:negative": "The kitchen is full of fruit flies, the bathrooms are constantly wet, (but pressure and water temperature are good) kitchenware is poorly washed and the place",
+    "bathroom:negative": "The kitchen is full of fruit flies, the bathrooms are constantly wet, (but pressure and water temperature are good) kitchenware is poorly washed and the place",
+    "check_in:negative": "but I had a few trips up and down the stairs to take my suitcase and backpacks and they changed the code to gate and room and it was a struggle to get my stuff"
+   }
+  },
+  "c56f2685dd2395b6": {
+   "sentiment": "positive",
+   "summary": "Guest enjoyed the peaceful backyard space.",
+   "topics": [
+    [
+     "facilities",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "facilities:positive": "Backyard space was my favorite spot"
+   }
+  },
+  "fb428f41caa646f0": {
+   "sentiment": "positive",
+   "summary": "Guest praised cleanliness, staff friendliness, location and value.",
+   "topics": [
+    [
+     "cleanliness",
+     "positive"
+    ],
+    [
+     "location",
+     "positive"
+    ],
+    [
+     "staff",
+     "positive"
+    ],
+    [
+     "value_for_money",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "cleanliness:positive": "The place was very clean, comfortable, and well maintained",
+    "staff:positive": "The staff were incredibly friendly, welcoming, and accommodating throughout my stay",
+    "location:positive": "The location was convenient, and it was definitely worth the price I paid",
+    "value_for_money:positive": "The location was convenient, and it was definitely worth the price I paid"
+   }
+  },
+  "5b1bbbed8249ca11": {
+   "sentiment": "negative",
+   "summary": "Guest found the room dirty despite a good location.",
+   "topics": [
+    [
+     "cleanliness",
+     "negative"
+    ],
+    [
+     "location",
+     "positive"
+    ],
+    [
+     "staff",
+     "negative"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "The location is good",
+    "cleanliness:negative": "When I checked in there was a pile of used toothpicks and fingernails next to the bed",
+    "staff:negative": "and clean the room again but much to my confusion the staff member just took the toothpicks then left, I had to end up changing the bed sheets myself and"
+   }
+  },
+  "62e77b3dc3f665f8": {
+   "sentiment": "neutral",
+   "summary": "Guest liked the location but found the kitchen cramped.",
+   "topics": [
+    [
+     "facilities",
+     "negative"
+    ],
+    [
+     "location",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "A localização é ótima",
+    "facilities:negative": "Cozinha é pequena e tem poucas cadeiras para realizar as refeições"
+   }
+  },
+  "2a810cd9e4dc69ac": {
+   "sentiment": "positive",
+   "summary": "Guest appreciated staff, comfort and amenities, noting some minor issues.",
+   "topics": [
+    [
+     "bathroom",
+     "positive"
+    ],
+    [
+     "bed_comfort",
+     "positive"
+    ],
+    [
+     "check_in",
+     "negative"
+    ],
+    [
+     "cleanliness",
+     "negative"
+    ],
+    [
+     "facilities",
+     "positive"
+    ],
+    [
+     "noise",
+     "negative"
+    ],
+    [
+     "staff",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "staff:positive": "I liked that ALL staff were very polite friendly hard working and respectful",
+    "bed_comfort:positive": "I liked the firm comfortable mattress",
+    "facilities:positive": "I liked the on-site washing machine (free, including hot water if you want), and the on-site dryer ($4 per load, tap to pay)",
+    "bathroom:positive": "I liked the hot water in the shower",
+    "check_in:negative": "A couple of the door code devices may need repair / replacing",
+    "cleanliness:negative": "Some of the patrons were disgusting how they treated the kitchen leaving huge cooking messes for staff to clean up, do they not understand over time that",
+    "noise:negative": "Some patrons were selfish in how they were not quiet during sleep time"
+   }
+  },
+  "72d8b259da3a1f22": {
+   "sentiment": "positive",
+   "summary": "Guest found the room spacious, comfortable and clean.",
+   "topics": [
+    [
+     "cleanliness",
+     "positive"
+    ],
+    [
+     "room_condition",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "room_condition:positive": "Era una pieza amplia, cómoda y estaba limpio todo",
+    "cleanliness:positive": "Era una pieza amplia, cómoda y estaba limpio todo"
+   }
+  },
+  "2b375797e2287cb9": {
+   "sentiment": "neutral",
+   "summary": "Good location and facilities but food and staff availability were disappointing.",
+   "topics": [
+    [
+     "breakfast_food",
+     "negative"
+    ],
+    [
+     "facilities",
+     "positive"
+    ],
+    [
+     "location",
+     "positive"
+    ],
+    [
+     "staff",
+     "negative"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "- 3 mins walk to Kings Cross station",
+    "facilities:positive": "- cooking facilities available",
+    "staff:negative": "- no staff on site - all comms are online, or via a video call on a monitor at the entrance",
+    "breakfast_food:negative": "but one day it didn't become available till 7:50"
+   }
+  },
+  "ad6f281b9bed0eda": {
+   "sentiment": "positive",
+   "summary": "Excellent location, clean rooms, good price and brilliant staff.",
+   "topics": [
+    [
+     "cleanliness",
+     "positive"
+    ],
+    [
+     "location",
+     "positive"
+    ],
+    [
+     "staff",
+     "positive"
+    ],
+    [
+     "value_for_money",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "Loved the location, the price for stay was affordable and everything was clean, tidy and well maintained",
+    "value_for_money:positive": "Loved the location, the price for stay was affordable and everything was clean, tidy and well maintained",
+    "cleanliness:positive": "Loved the location, the price for stay was affordable and everything was clean, tidy and well maintained",
+    "staff:positive": "The staff were brilliant"
+   }
+  },
+  "0d616a7d3a39cdd3": {
+   "sentiment": "negative",
+   "summary": "Very dirty, unsafe, noisy and poorly maintained accommodation.",
+   "topics": [
+    [
+     "cleanliness",
+     "negative"
+    ],
+    [
+     "location",
+     "negative"
+    ],
+    [
+     "noise",
+     "negative"
+    ],
+    [
+     "room_condition",
+     "negative"
+    ]
+   ],
+   "evidence": {
+    "cleanliness:negative": "Lieu sale , non securisé , les residents sont bruillant et ne respecte pas la tranquilité des voyageurs la nuit et le matin",
+    "noise:negative": "Lieu sale , non securisé , les residents sont bruillant et ne respecte pas la tranquilité des voyageurs la nuit et le matin",
+    "location:negative": "Lieu sale , non securisé , les residents sont bruillant et ne respecte pas la tranquilité des voyageurs la nuit et le matin",
+    "room_condition:negative": "Le ménage n'est pas fait , l'etablissement est Vieux et en très mauvais état"
+   }
+  },
+  "2ff095c0f2852f9f": {
+   "sentiment": "neutral",
+   "summary": "Online check-in worked, staff helped, but the room smelled and was poorly ventilated.",
+   "topics": [
+    [
+     "check_in",
+     "positive"
+    ],
+    [
+     "facilities",
+     "positive"
+    ],
+    [
+     "room_condition",
+     "negative"
+    ],
+    [
+     "staff",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "check_in:positive": "Das Hotel wird fast ausschließlich online gemanagt, es gibt nur Online-Self- Check-in das macht man entweder vorher übers web, oder am Bildschirm im",
+    "staff:positive": "Aber es war zum Glück doch ein Mitarbeiter anwesend und hat geholfen, weil es irgendwelche Probleme mit meiner Buchung gab",
+    "facilities:positive": "Und es gab, völlig unverhofft, Nudeln mit Tomatensoße zum kostenlosen Abendessen, mit Salat, das war klasse",
+    "room_condition:negative": "hat aber trotzdem ziemlich nach den Socken des anderen gemüffelt"
+   }
+  },
+  "bf259a682ffe6566": {
+   "sentiment": "positive",
+   "summary": "Great location and staff with appreciated free daily dinner.",
+   "topics": [
+    [
+     "facilities",
+     "positive"
+    ],
+    [
+     "location",
+     "positive"
+    ],
+    [
+     "staff",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "Location and staff are great,free dinner every day is very appealing and appreciated 😊",
+    "staff:positive": "Location and staff are great,free dinner every day is very appealing and appreciated 😊",
+    "facilities:positive": "Location and staff are great,free dinner every day is very appealing and appreciated 😊"
+   }
+  },
+  "81635610b6433ba3": {
+   "sentiment": "positive",
+   "summary": "Spotless environment and excellent staff service, especially from Stella.",
+   "topics": [
+    [
+     "cleanliness",
+     "positive"
+    ],
+    [
+     "staff",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "cleanliness:positive": "I liked the cleanliness and excellent service staff especially Stella who made checking in and everything else run smoothly",
+    "staff:positive": "I liked the cleanliness and excellent service staff especially Stella who made checking in and everything else run smoothly"
+   }
+  },
+  "4b461624979f2a94": {
+   "sentiment": "negative",
+   "summary": "Basic but decent location; issues with virtual reception, checkout, noise and broken net.",
+   "topics": [
+    [
+     "bed_comfort",
+     "positive"
+    ],
+    [
+     "check_in",
+     "negative"
+    ],
+    [
+     "facilities",
+     "positive"
+    ],
+    [
+     "location",
+     "positive"
+    ],
+    [
+     "noise",
+     "negative"
+    ],
+    [
+     "staff",
+     "negative"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "Very basic but good location",
+    "facilities:positive": "Food was fine, bed was comfortable and there was AC, lockers and a power outlet by the bed",
+    "bed_comfort:positive": "Food was fine, bed was comfortable and there was AC, lockers and a power outlet by the bed",
+    "check_in:negative": "I wasn't aware it was a virtual reception until I arrived but check-in was ok, but I couldn't check out as there was no one there and no one answered the phone",
+    "staff:negative": "I wasn't aware it was a virtual reception until I arrived but check-in was ok, but I couldn't check out as there was no one there and no one answered the phone",
+    "noise:negative": "The mosquito net on the window was broken and it was loud in the room from the construction going on outside - not the place's fault but there was no way of"
+   }
+  },
+  "4de33c9f196f4990": {
+   "sentiment": "neutral",
+   "summary": "Convenient location and spacious comfortable room, but meals were simple and repetitive.",
+   "topics": [
+    [
+     "breakfast_food",
+     "negative"
+    ],
+    [
+     "location",
+     "positive"
+    ],
+    [
+     "room_condition",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "La localisation est top, a égale distance de l'opéra de Sydney que de la gare central avec beaucoup d'établissement à proximité (restau, bar, supermarchés)",
+    "room_condition:positive": "La chambre est confortable et spacieuse",
+    "breakfast_food:negative": "Le service de demi pension est top malgré que les repas ne soient pas très élaboré (des pâtes sauces tomates avec salade 2 soir sur les 3 que je suis resté,"
+   }
+  },
+  "2306e53550213871": {
+   "sentiment": "positive",
+   "summary": "Very convenient location close to Town Hall, making city travel easy.",
+   "topics": [
+    [
+     "location",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "I stayed here because it was so convenient, it is so close to Town Hall"
+   }
+  },
+  "baae1472600cf9e8": {
+   "sentiment": "positive",
+   "summary": "Great location, pleasant atmosphere and excellent service from Shella.",
+   "topics": [
+    [
+     "location",
+     "positive"
+    ],
+    [
+     "staff",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "Location, atmosphere, great service from Shella",
+    "staff:positive": "Location, atmosphere, great service from Shella"
+   }
+  },
+  "985cbade119ab298": {
+   "sentiment": "negative",
+   "summary": "Location and staff were good but check-in, facilities and room condition were poor.",
+   "topics": [
+    [
+     "bed_comfort",
+     "negative"
+    ],
+    [
+     "check_in",
+     "negative"
+    ],
+    [
+     "facilities",
+     "negative"
+    ],
+    [
+     "location",
+     "positive"
+    ],
+    [
+     "room_condition",
+     "negative"
+    ],
+    [
+     "staff",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "Excellent location and staff is responsive",
+    "staff:positive": "Excellent location and staff is responsive",
+    "check_in:negative": "No human interaction - all check in process is done through message and an app",
+    "facilities:negative": "You cannot enter the hostel before checkin time, You cannot store luggage in the hostel before or after your stay",
+    "room_condition:negative": "Did not use the kitchen but it looked very clean and ok but the rest is old and not taken care of",
+    "bed_comfort:negative": "Squeaky beds"
+   }
+  },
+  "d25470d692a68eaa": {
+   "sentiment": "negative",
+   "summary": "Very low value, no staff presence and poor facilities made the stay unpleasant.",
+   "topics": [
+    [
+     "bathroom",
+     "negative"
+    ],
+    [
+     "check_in",
+     "negative"
+    ],
+    [
+     "facilities",
+     "negative"
+    ],
+    [
+     "staff",
+     "negative"
+    ],
+    [
+     "value_for_money",
+     "negative"
+    ]
+   ],
+   "evidence": {
+    "value_for_money:negative": "Le prix avec le repas inclus mais ne vous y tromper pas cela n en vaut vraiment pas la peine",
+    "staff:negative": "Personne à l accueil ce qui doit justifier le tarif, une succession de message whatsapp générés automatiquement donc polluer toute la journée pour toujours le",
+    "facilities:negative": "Pas d endroit pour laisser le sac obligé d aller sur un autre de leur hébergement avec toujours personne de physique pour vous accueillir il faut demander l",
+    "check_in:negative": "avec toujours personne de physique pour vous accueillir il faut demander l ouverture de la porte à distance si vous avez de la chance qqn répond et ouvre",
+    "bathroom:negative": "La sdb privative pour 4 petite contient une douche un pt lavabo et les toilettes"
+   }
+  },
+  "bd09fd1b9b997b6c": {
+   "sentiment": "neutral",
+   "summary": "Good location and breakfast but cramped rooms, noisy beds and limited bathroom capacity.",
+   "topics": [
+    [
+     "bathroom",
+     "negative"
+    ],
+    [
+     "bed_comfort",
+     "negative"
+    ],
+    [
+     "breakfast_food",
+     "positive"
+    ],
+    [
+     "check_in",
+     "negative"
+    ],
+    [
+     "cleanliness",
+     "negative"
+    ],
+    [
+     "location",
+     "positive"
+    ],
+    [
+     "room_condition",
+     "negative"
+    ],
+    [
+     "staff",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "The location is nice, close to metro station and right in the CBD",
+    "breakfast_food:positive": "They offer complimentary breakfast (cereals and toast) and dinner",
+    "staff:positive": "You meet nice poeple",
+    "room_condition:negative": "There is not too much space anywhere",
+    "bathroom:negative": "Not enough capacity of bathrooms so you might need to wait, floors get wet, nothing to dry off hands with after use, cleanliness is not the top, bunk beds",
+    "cleanliness:negative": "to wait, floors get wet, nothing to dry off hands with after use, cleanliness is not the top, bunk beds shake easily when people moving and for dinner you",
+    "bed_comfort:negative": "to dry off hands with after use, cleanliness is not the top, bunk beds shake easily when people moving and for dinner you need to be there right from",
+    "check_in:negative": "There is actualy noone to talk to as its all self check-in and you only get emails with information"
+   }
+  },
+  "984a56244e5d00a4": {
+   "sentiment": "neutral",
+   "summary": "Location clean but rooms are tiny and sanitary space is insufficient.",
+   "topics": [
+    [
+     "bathroom",
+     "negative"
+    ],
+    [
+     "cleanliness",
+     "positive"
+    ],
+    [
+     "facilities",
+     "negative"
+    ],
+    [
+     "location",
+     "positive"
+    ],
+    [
+     "room_condition",
+     "negative"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "Location ok, propre",
+    "cleanliness:positive": "Location ok, propre",
+    "room_condition:negative": "Trop petit, aucun espace détente et pas assez d'espace sanitaire",
+    "facilities:negative": "Trop petit, aucun espace détente et pas assez d'espace sanitaire",
+    "bathroom:negative": "Trop petit, aucun espace détente et pas assez d'espace sanitaire"
+   }
+  },
+  "9cfc4a43d07d14db": {
+   "sentiment": "positive",
+   "summary": "Spotlessly clean, large kitchen and comfortable rooms offer great value.",
+   "topics": [
+    [
+     "bed_comfort",
+     "positive"
+    ],
+    [
+     "cleanliness",
+     "positive"
+    ],
+    [
+     "facilities",
+     "positive"
+    ],
+    [
+     "room_condition",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "cleanliness:positive": "extremely clean, huge kitchen, nice and comfy rooms",
+    "facilities:positive": "extremely clean, huge kitchen, nice and comfy rooms",
+    "room_condition:positive": "extremely clean, huge kitchen, nice and comfy rooms",
+    "bed_comfort:positive": "extremely clean, huge kitchen, nice and comfy rooms"
+   }
+  },
+  "3e46a1447c0e2ef7": {
+   "sentiment": "positive",
+   "summary": "Clean, central hostel with comfortable bed and inclusive meals, though windows are few.",
+   "topics": [
+    [
+     "bed_comfort",
+     "positive"
+    ],
+    [
+     "breakfast_food",
+     "positive"
+    ],
+    [
+     "cleanliness",
+     "positive"
+    ],
+    [
+     "location",
+     "positive"
+    ],
+    [
+     "room_condition",
+     "negative"
+    ]
+   ],
+   "evidence": {
+    "cleanliness:positive": "Ostello pulito, letto confortevole, con la cena e la colazione inclusi in posizione molto centrale",
+    "bed_comfort:positive": "Ostello pulito, letto confortevole, con la cena e la colazione inclusi in posizione molto centrale",
+    "breakfast_food:positive": "Ostello pulito, letto confortevole, con la cena e la colazione inclusi in posizione molto centrale",
+    "location:positive": "Ostello pulito, letto confortevole, con la cena e la colazione inclusi in posizione molto centrale",
+    "room_condition:negative": "Poche finestre"
+   }
+  },
+  "aba8d588c59a546e": {
+   "sentiment": "negative",
+   "summary": "Very small, poorly ventilated rooms, tiny lockers, no staff and dirty kitchen.",
+   "topics": [
+    [
+     "cleanliness",
+     "negative"
+    ],
+    [
+     "facilities",
+     "negative"
+    ],
+    [
+     "room_condition",
+     "negative"
+    ],
+    [
+     "staff",
+     "negative"
+    ]
+   ],
+   "evidence": {
+    "room_condition:negative": "La habitacion de 6 camas es muy pequeña y no tiene buena ventilacion natural",
+    "facilities:negative": "Los lockers son muy pequeños",
+    "staff:negative": "El hostel no tiene staff",
+    "cleanliness:negative": "La cocina estaba sucia"
+   }
+  },
+  "06cf27d350401bb6": {
+   "sentiment": "negative",
+   "summary": "Free dinner is the only plus; the place is tiny, dirty and hard to navigate.",
+   "topics": [
+    [
+     "breakfast_food",
+     "positive"
+    ],
+    [
+     "check_in",
+     "negative"
+    ],
+    [
+     "cleanliness",
+     "negative"
+    ],
+    [
+     "facilities",
+     "negative"
+    ]
+   ],
+   "evidence": {
+    "breakfast_food:positive": "Hay cena gratis si te apuntas",
+    "cleanliness:negative": "Es un cuchitril, pequeño, mal acondicionado, sin zonas comunes, lo que se ve en las fotos es lo que hay, ni sofas ni nada",
+    "facilities:negative": "Es un cuchitril, pequeño, mal acondicionado, sin zonas comunes, lo que se ve en las fotos es lo que hay, ni sofas ni nada",
+    "check_in:negative": "Una puerta negra en la calle con autocheckin, escalera empinada y ahí llegas a un laberinto"
+   }
+  },
+  "c681c7ee76cd6e06": {
+   "sentiment": "neutral",
+   "summary": "Attractive small kitchen and lounge, but top beds lack ceilings causing sleep issues.",
+   "topics": [
+    [
+     "bed_comfort",
+     "negative"
+    ],
+    [
+     "facilities",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "facilities:positive": "The kitchen and lounge were small but attractive",
+    "bed_comfort:negative": "Unfortunately, the top beds had no ceiling"
+   }
+  },
+  "a587683f9a2ade3e": {
+   "sentiment": "neutral",
+   "summary": "Good location and meals, but no real reception, limited space and lacking decor.",
+   "topics": [
+    [
+     "breakfast_food",
+     "positive"
+    ],
+    [
+     "check_in",
+     "negative"
+    ],
+    [
+     "facilities",
+     "negative"
+    ],
+    [
+     "location",
+     "positive"
+    ],
+    [
+     "staff",
+     "negative"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "La situation , les très bons repas",
+    "breakfast_food:positive": "La situation , les très bons repas",
+    "staff:negative": "Le manque d'accueil réel et la communication via un écran",
+    "check_in:negative": "Le manque d'accueil réel et la communication via un écran",
+    "facilities:negative": "le manque de place pour la salle a manger"
+   }
+  },
+  "40175a5a798437b7": {
+   "sentiment": "positive",
+   "summary": "The stay was comfortable and good value for money.",
+   "topics": [
+    [
+     "bed_comfort",
+     "positive"
+    ],
+    [
+     "value_for_money",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "bed_comfort:positive": "A hotel which gives you a good night's rest after a long day - definitely worth your money",
+    "value_for_money:positive": "A hotel which gives you a good night's rest after a long day - definitely worth your money"
+   }
+  },
+  "a19a5e4efd2c669e": {
+   "sentiment": "neutral",
+   "summary": "Location and food were good but staff response was slow.",
+   "topics": [
+    [
+     "breakfast_food",
+     "positive"
+    ],
+    [
+     "check_in",
+     "negative"
+    ],
+    [
+     "location",
+     "positive"
+    ],
+    [
+     "staff",
+     "negative"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "l'emplacement est bien",
+    "breakfast_food:positive": "la nourriture est bonne",
+    "staff:negative": "il n'y a pas de réception, et parfois ils mettent du temps à répondre aux messages",
+    "check_in:negative": "il n'y a pas de réception, et parfois ils mettent du temps à répondre aux messages"
+   }
+  },
+  "226e118873da5714": {
+   "sentiment": "negative",
+   "summary": "Many issues with check-in, facilities and comfort despite a good location.",
+   "topics": [
+    [
+     "bathroom",
+     "negative"
+    ],
+    [
+     "check_in",
+     "negative"
+    ],
+    [
+     "cleanliness",
+     "positive"
+    ],
+    [
+     "facilities",
+     "negative"
+    ],
+    [
+     "location",
+     "positive"
+    ],
+    [
+     "room_condition",
+     "negative"
+    ],
+    [
+     "staff",
+     "negative"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "The location and cleanliness",
+    "cleanliness:positive": "The location and cleanliness",
+    "check_in:negative": "The entrance door was difficult to locate",
+    "staff:negative": "There is no luggage room, no reception, and everything is online",
+    "facilities:negative": "There is no luggage room, no reception, and everything is online",
+    "room_condition:negative": "The mattress was hard, like a table",
+    "bathroom:negative": "The shower didn't have hot water"
+   }
+  },
+  "4dfe899adb8c0827": {
+   "sentiment": "negative",
+   "summary": "Check-in was chaotic and staff absent, though the room was clean and well-located.",
+   "topics": [
+    [
+     "check_in",
+     "negative"
+    ],
+    [
+     "cleanliness",
+     "positive"
+    ],
+    [
+     "location",
+     "positive"
+    ],
+    [
+     "staff",
+     "negative"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "- Boa localização",
+    "cleanliness:positive": "- Quarto limpo e confortável",
+    "check_in:negative": "- A pior parte foi o check-in> cheguei à portaria e havia um aviso que eu teria que fazer Check-in na calçada no meio da rua",
+    "staff:negative": "RESUMINDO: o hostel não tem funcionários de recepção presencialmente, é tudo à distância"
+   }
+  },
+  "d4aefe4643d2e3ac": {
+   "sentiment": "neutral",
+   "summary": "Good location and free meals, but hallway smell and strong AC were drawbacks.",
+   "topics": [
+    [
+     "bed_comfort",
+     "negative"
+    ],
+    [
+     "breakfast_food",
+     "positive"
+    ],
+    [
+     "cleanliness",
+     "negative"
+    ],
+    [
+     "location",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "The free breakfast and dinner is real and good location",
+    "breakfast_food:positive": "The free breakfast and dinner is real and good location",
+    "cleanliness:negative": "But there was a bad smell in the hallway at the time and if you have upper bunk the aircon blast right on you",
+    "bed_comfort:negative": "But there was a bad smell in the hallway at the time and if you have upper bunk the aircon blast right on you"
+   }
+  },
+  "ce83927a65fdb453": {
+   "sentiment": "neutral",
+   "summary": "Value and location were praised, yet shower quality and remote check-in were criticized.",
+   "topics": [
+    [
+     "bathroom",
+     "negative"
+    ],
+    [
+     "bed_comfort",
+     "positive"
+    ],
+    [
+     "check_in",
+     "negative"
+    ],
+    [
+     "location",
+     "positive"
+    ],
+    [
+     "staff",
+     "negative"
+    ],
+    [
+     "value_for_money",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "value_for_money:positive": "Pratique et bon rapport qualité prix",
+    "location:positive": "bien placé",
+    "bed_comfort:positive": "- lits superposés de qualité, costauds, avec rideau",
+    "bathroom:negative": "- salle de douche cheap",
+    "check_in:negative": "- check-in dématérialisé, personne sur place",
+    "staff:negative": "- check-in dématérialisé, personne sur place"
+   }
+  },
+  "ad569a8d99d389c3": {
+   "sentiment": "positive",
+   "summary": "Very affordable and pleasant stay.",
+   "topics": [
+    [
+     "value_for_money",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "value_for_money:positive": "Cheap and cheerful"
+   }
+  },
+  "21a574a1dd98afd2": {
+   "sentiment": "positive",
+   "summary": "Spotless rooms and well-maintained facilities made the stay refreshing.",
+   "topics": [
+    [
+     "cleanliness",
+     "positive"
+    ],
+    [
+     "facilities",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "cleanliness:positive": "La propreté remarquable de l'auberge et ses installations bien entretenues m'ont apporté un répit bienvenu, rendant mon séjour vraiment rajeunissant",
+    "facilities:positive": "La propreté remarquable de l'auberge et ses installations bien entretenues m'ont apporté un répit bienvenu, rendant mon séjour vraiment rajeunissant"
+   }
+  },
+  "d5b70ee6fd21d8e8": {
+   "sentiment": "negative",
+   "summary": "Bathrooms were smaller than expected and did not match photos.",
+   "topics": [
+    [
+     "bathroom",
+     "negative"
+    ]
+   ],
+   "evidence": {
+    "bathroom:negative": "Bathrooms are too small"
+   }
+  },
+  "a94bb066d00b4397": {
+   "sentiment": "negative",
+   "summary": "Friendly staff but overall poor facilities, cleanliness and service delays.",
+   "topics": [
+    [
+     "bathroom",
+     "negative"
+    ],
+    [
+     "breakfast_food",
+     "negative"
+    ],
+    [
+     "check_in",
+     "negative"
+    ],
+    [
+     "cleanliness",
+     "negative"
+    ],
+    [
+     "facilities",
+     "negative"
+    ],
+    [
+     "staff",
+     "negative"
+    ],
+    [
+     "staff",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "staff:positive": "Le personnel sympathique mais qu'on ne voit qu'au moment de nettoyage ou de service de PDJ/diner",
+    "staff:negative": "Pas de réception, aucun manager ou gérant présent, tout se fait par échange Whatsapp avec temps de réponse aléatoire",
+    "cleanliness:negative": "Les joints de carrelages étaient sales",
+    "breakfast_food:negative": "PDJ très sommaire, et pour dîner il faut réserver",
+    "facilities:negative": "Cuisine et salle trop trop petites",
+    "bathroom:negative": "De même les douches/toilettes sont trop petites, et c'est l'embouteillage régulièrement",
+    "check_in:negative": "Pas de réception, aucun manager ou gérant présent, tout se fait par échange Whatsapp avec temps de réponse aléatoire"
+   }
+  },
+  "dc7c1600087862d0": {
+   "sentiment": "neutral",
+   "summary": "Mixed experience with good location and bed but cleanliness and power outlet issues.",
+   "topics": [
+    [
+     "bed_comfort",
+     "positive"
+    ],
+    [
+     "cleanliness",
+     "negative"
+    ],
+    [
+     "location",
+     "positive"
+    ],
+    [
+     "room_condition",
+     "negative"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "I like the location of hostel",
+    "bed_comfort:positive": "I love the top position of the bed",
+    "cleanliness:negative": "But last day I feel the place was quite smelly and dusty",
+    "room_condition:negative": "The electricity point of plugging mobile and laptop was quite far to reach"
+   }
+  },
+  "360391fe15611e57": {
+   "sentiment": "neutral",
+   "summary": "Comfortable bedding and convenient transport, but lacking personal lights and charging outlets.",
+   "topics": [
+    [
+     "bed_comfort",
+     "positive"
+    ],
+    [
+     "location",
+     "positive"
+    ],
+    [
+     "room_condition",
+     "negative"
+    ]
+   ],
+   "evidence": {
+    "bed_comfort:positive": "床品比较舒服，交通比较方便",
+    "location:positive": "床品比较舒服，交通比较方便",
+    "room_condition:negative": "1，床铺没有个人用灯2床铺没有充电设备"
+   }
+  },
+  "cff3a990a5888f25": {
+   "sentiment": "positive",
+   "summary": "Excellent food praised highly by the guest.",
+   "topics": [
+    [
+     "breakfast_food",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "breakfast_food:positive": "I was blown away by the food at this hostel! The meals were absolutely superb-fresh, flavorful, and beautifully presented"
+   }
+  },
+  "985e8b34bef54ab1": {
+   "sentiment": "positive",
+   "summary": "Friendly staff, comfortable bed, and great location for sightseeing.",
+   "topics": [
+    [
+     "bed_comfort",
+     "positive"
+    ],
+    [
+     "location",
+     "positive"
+    ],
+    [
+     "staff",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "staff:positive": "連絡を取ってからコミュニケーションはすぐに改善され、チームは親切に滞在をサポートしてくれた。ベッドは居心地が良く、近くの観光スポットを探索するには最高のロケーションでした。",
+    "bed_comfort:positive": "連絡を取ってからコミュニケーションはすぐに改善され、チームは親切に滞在をサポートしてくれた。ベッドは居心地が良く、近くの観光スポットを探索するには最高のロケーションでした。",
+    "location:positive": "連絡を取ってからコミュニケーションはすぐに改善され、チームは親切に滞在をサポートしてくれた。ベッドは居心地が良く、近くの観光スポットを探索するには最高のロケーションでした。"
+   }
+  },
+  "fb42d567cb3fad64": {
+   "sentiment": "negative",
+   "summary": "The guest experienced poor reception service and unhelpful staff.",
+   "topics": [
+    [
+     "check_in",
+     "negative"
+    ],
+    [
+     "staff",
+     "negative"
+    ]
+   ],
+   "evidence": {
+    "check_in:negative": "Pas de réception sur place, tout se fait par WhatsApp et les seules personnes qui travaillent sont celles qui viennent pour nettoyer mais elles sont en général",
+    "staff:negative": "sur place, tout se fait par WhatsApp et les seules personnes qui travaillent sont celles qui viennent pour nettoyer mais elles sont en général pas au courant"
+   }
+  },
+  "3e15fc2ea696faf5": {
+   "sentiment": "neutral",
+   "summary": "Location and staff were praised, but common areas were lacking.",
+   "topics": [
+    [
+     "breakfast_food",
+     "positive"
+    ],
+    [
+     "facilities",
+     "negative"
+    ],
+    [
+     "location",
+     "positive"
+    ],
+    [
+     "staff",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "Location",
+    "breakfast_food:positive": "Meals",
+    "staff:positive": "Friendly staff",
+    "facilities:negative": "No cosy common areas"
+   }
+  },
+  "52a50f02c87e83f3": {
+   "sentiment": "positive",
+   "summary": "Good hostel with nice breakfast but crowded bathrooms.",
+   "topics": [
+    [
+     "bathroom",
+     "negative"
+    ],
+    [
+     "breakfast_food",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "breakfast_food:positive": "シドニーで少し滞在するには良いホステル。朝食のオプションが気に入った。",
+    "bathroom:negative": "夕食がもっと美味しかった。ホステル内は人が多く、トイレに並ぶのに時間がかかった。"
+   }
+  },
+  "fcc9b35306dfe69a": {
+   "sentiment": "positive",
+   "summary": "Friendly staff, clean rooms, and convenient location made a great stay.",
+   "topics": [
+    [
+     "cleanliness",
+     "positive"
+    ],
+    [
+     "location",
+     "positive"
+    ],
+    [
+     "staff",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "staff:positive": "La gente súper amable, destacable limpieza y cómodo para poder disfrutar de Sidney sin el caos del centro",
+    "cleanliness:positive": "La gente súper amable, destacable limpieza y cómodo para poder disfrutar de Sidney sin el caos del centro",
+    "location:positive": "La gente súper amable, destacable limpieza y cómodo para poder disfrutar de Sidney sin el caos del centro"
+   }
+  },
+  "3d135a5492a29ec9": {
+   "sentiment": "negative",
+   "summary": "Good location but equipment was broken, reducing value.",
+   "topics": [
+    [
+     "facilities",
+     "negative"
+    ],
+    [
+     "location",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "L'emplacement",
+    "facilities:negative": "Équipement hors d'usage"
+   }
+  },
+  "d09e36f8e97643b9": {
+   "sentiment": "neutral",
+   "summary": "The hostel offers a good location and value but has noisy bunks and a cold environment.",
+   "topics": [
+    [
+     "facilities",
+     "positive"
+    ],
+    [
+     "location",
+     "positive"
+    ],
+    [
+     "noise",
+     "negative"
+    ],
+    [
+     "room_condition",
+     "negative"
+    ],
+    [
+     "value_for_money",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "Good location, free meals are really good, nice atmosphere in the hostel and has everything you could need",
+    "value_for_money:positive": "Good value for the price you pay",
+    "facilities:positive": "Good location, free meals are really good, nice atmosphere in the hostel and has everything you could need",
+    "noise:negative": "Top bunks are really high and noisy when climbing up, difficult to charge electronics, bathrooms on different floors, and hostel was very cold (in winter",
+    "room_condition:negative": "bunks are really high and noisy when climbing up, difficult to charge electronics, bathrooms on different floors, and hostel was very cold (in winter months)"
+   }
+  },
+  "8f22ba5fa2b894ee": {
+   "sentiment": "positive",
+   "summary": "Comfortable beds, a well-stocked kitchen and friendly fellow travelers made the stay enjoyable.",
+   "topics": [
+    [
+     "bed_comfort",
+     "positive"
+    ],
+    [
+     "facilities",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "bed_comfort:positive": "comfortable bed, the communal kitchen was well-stocked, and the fellow travelers I met were fantastic",
+    "facilities:positive": "comfortable bed, the communal kitchen was well-stocked, and the fellow travelers I met were fantastic"
+   }
+  },
+  "fddca4fe5298fc5b": {
+   "sentiment": "positive",
+   "summary": "The location is lovely and convenient for guests.",
+   "topics": [
+    [
+     "location",
+     "positive"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "Location lovely stuff"
+   }
+  },
+  "bae65faef039dbb6": {
+   "sentiment": "negative",
+   "summary": "Staff communication was poor and confusing for non-Japanese speakers.",
+   "topics": [
+    [
+     "staff",
+     "negative"
+    ]
+   ],
+   "evidence": {
+    "staff:negative": "スタッフが体面でなくリモコン画面で外国人人で言葉ができない人間にはわかりにくい"
+   }
+  },
+  "59e52840b2615a9c": {
+   "sentiment": "neutral",
+   "summary": "Convenient location but noisy AC, poor facilities and no hot water in the bathroom.",
+   "topics": [
+    [
+     "bathroom",
+     "negative"
+    ],
+    [
+     "facilities",
+     "negative"
+    ],
+    [
+     "location",
+     "positive"
+    ],
+    [
+     "noise",
+     "negative"
+    ]
+   ],
+   "evidence": {
+    "location:positive": "位置很方便",
+    "facilities:negative": "环境，设施，空调太吵，浴室没有热水",
+    "noise:negative": "环境，设施，空调太吵，浴室没有热水",
+    "bathroom:negative": "环境，设施，空调太吵，浴室没有热水"
+   }
+  }
+ }
+}

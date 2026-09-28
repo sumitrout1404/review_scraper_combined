@@ -1,0 +1,13 @@
+{
+ "model": "llama-3.3-70b-versatile",
+ "meta": {
+  "requests": 0,
+  "prompt_tokens": 0,
+  "completion_tokens": 0,
+  "seconds": 0.1,
+  "errors": [
+   "LLMUnavailableError: groq model 'llama-3.3-70b-versatile' not available (status 404)"
+  ]
+ },
+ "results": {}
+}

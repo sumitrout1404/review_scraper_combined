@@ -1,0 +1,13 @@
+{
+ "model": "llama-3.1-8b-instant",
+ "meta": {
+  "requests": 0,
+  "prompt_tokens": 0,
+  "completion_tokens": 0,
+  "seconds": 0.2,
+  "errors": [
+   "LLMUnavailableError: groq model 'llama-3.1-8b-instant' not available (status 404)"
+  ]
+ },
+ "results": {}
+}

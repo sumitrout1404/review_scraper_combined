@@ -1,0 +1,19 @@
+# Deployed: api/, app/, collector/, analysis/, core/, db/ and requirements.txt.
+# Production reads Postgres (Neon), so no local database files are bundled.
+tests/
+scripts/
+docs/
+data/
+analysis/eval/
+*.db
+.env
+.env*
+requirements-collector.txt
+requirements-dev.txt
+.venv/
+venv/
+**/__pycache__/
+.pytest_cache/
+.ruff_cache/
+.cache/
+raw/

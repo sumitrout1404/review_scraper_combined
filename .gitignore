@@ -1,0 +1,9 @@
+# Internal working notes: the trial brief and the live progress tracker.
+# Not part of the deliverable — remove this line if you want it published.
+task.txt
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
