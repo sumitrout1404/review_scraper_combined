@@ -6,6 +6,10 @@
       "includeFiles": "{app/**,collector/**,analysis/**,core/**,db/**}"
     }
   },
-  "crons": [{ "path": "/api/cron/collect", "schedule": "0 14 * * *" }],
-  "rewrites": [{ "source": "/(.*)", "destination": "/api/index" }]
+  "crons": [
+    {
+      "path": "/api/cron/collect",
+      "schedule": "0 14 * * *"
+    }
+  ]
 }
