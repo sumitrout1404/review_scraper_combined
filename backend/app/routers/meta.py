@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import os
 from typing import Any
 
 from fastapi import APIRouter
@@ -18,8 +19,20 @@ from ..services.freshness import last_run, last_scraped_at
 router = APIRouter(tags=["meta"])
 
 
-def _unavailable() -> JSONResponse:
-    body = {"status": "error", "config_ok": get_settings().config_ok, "db": None, "detail": UNAVAILABLE_MESSAGE}
+def _unavailable(exc: Exception) -> JSONResponse:
+    """503 with enough to diagnose a deployment without revealing any configuration.
+
+    ``db_configured`` says only whether a connection string is present, and ``reason``
+    is the exception class name -- never a URI, host, credential or stack trace.
+    """
+    body = {
+        "status": "error",
+        "config_ok": get_settings().config_ok,
+        "db": None,
+        "db_configured": bool(os.environ.get("MONGODB_URI") or os.environ.get("MONGODB_URI_READONLY")),
+        "reason": type(exc).__name__,
+        "detail": UNAVAILABLE_MESSAGE,
+    }
     return JSONResponse(status_code=503, content=body)
 
 
@@ -41,8 +54,8 @@ def health() -> dict[str, Any] | JSONResponse:
                 "last_cron_run": last_run(trigger="cron"),
             },
         }
-    except (DatabaseUnavailable, *DB_ERRORS):
-        return _unavailable()
+    except (DatabaseUnavailable, *DB_ERRORS) as exc:
+        return _unavailable(exc)
 
 
 @router.get("/meta", response_model=Meta)

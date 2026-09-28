@@ -24,7 +24,11 @@ class HealthDB(BaseModel):
 class Health(BaseModel):
     status: str
     config_ok: bool
-    db: HealthDB
+    db: HealthDB | None = None
+    # Set only on failure; deliberately free of any configuration values.
+    db_configured: bool | None = None
+    reason: str | None = None
+    detail: str | None = None
 
 
 class Meta(BaseModel):
