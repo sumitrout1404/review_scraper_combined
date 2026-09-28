@@ -31,9 +31,15 @@ def ro(name: str) -> Collection:
     return collection(name, read_only=True)
 
 
+# The first aggregate batch holds 101 documents by default; anything larger costs an
+# extra `getMore` network round-trip per batch. Our result sets are small (days, topics,
+# properties), so one generous batch fetches them in a single round-trip.
+AGGREGATE_BATCH_SIZE = 5000
+
+
 def aggregate(name: str, pipeline: list[dict[str, Any]]) -> list[dict[str, Any]]:
     """Run an aggregation pipeline on a read-only collection and materialise the result."""
-    return list(ro(name).aggregate(pipeline))
+    return list(ro(name).aggregate(pipeline, batchSize=AGGREGATE_BATCH_SIZE))
 
 
 def ping() -> None:

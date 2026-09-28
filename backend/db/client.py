@@ -74,6 +74,11 @@ def get_client(read_only: bool = False) -> MongoClient:
         connectTimeoutMS=8000,
         socketTimeoutMS=30000,
         maxPoolSize=10,
+        # Keep one socket open and authenticated. Establishing a connection to Atlas
+        # costs a TLS handshake plus SCRAM auth (~hundreds of ms), which would
+        # otherwise be paid again whenever the pool goes idle between requests.
+        minPoolSize=1,
+        maxIdleTimeMS=120_000,
         retryWrites=True,
         tz_aware=True,
     )
